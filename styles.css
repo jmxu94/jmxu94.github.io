@@ -1,6 +1,8 @@
 #wrapper {
 	width: 960px;
-	margin: auto;
+	margin: 0 auto;
+	border: 1px solid red;
+	position: relative;
 }
 
 body {
@@ -9,41 +11,49 @@ body {
 }
 
 main {
-	width: 68%;
-	display: inline-block;
-	vertical-align:top;
+	width: 95%;
+	margin-left: 3%;
 }
 
 section#navigation {
-  width: 30%;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 30%;
-}
-
-#navigation {
-	width: 200px;
-	display: inline-block;
-	vertical-align:top;
+	width: 22%;
+ 	border: 2px dotted #FFAAA2;
+	border-radius: 30px;
+	background-color: white;
+	position: absolute;
+	left: 60px;
+	top: 275px;
 }
 
 /* INDEX */
 #rabbit-banner {
 	border: 3px solid #FFAAA2;
 	border-radius: 30px;
+	padding: 5px;
 	display: block;
 	width: 500px;
 	margin: auto;
 }
 
-.shrub {
-	border: 1px solid white;
-	border-radius: 50px;
+img#nav-shrub {
+	border-radius: 5px;
+	margin-left: -5%;
+	margin-right: -5%;
+	margin-bottom: -6%;
+}
+
+img.shrub {
+	border-radius: 5px;
+	margin-bottom: -2%;
 }
 
 h1 {
 	font-size: 5em;
 	text-align: center;
+}
+
+h2, h3, h4, h5 {
+	margin: 0 auto;
 }
 
 
