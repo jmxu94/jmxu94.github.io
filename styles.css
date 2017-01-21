@@ -1,3 +1,54 @@
-body {
-	background: pink;
+#wrapper {
+	width: 960px;
+	margin: auto;
 }
+
+body {
+	background: #FFDADA;
+	font-family: "Andale Mono", monospace;
+}
+
+main {
+	width: 68%;
+	display: inline-block;
+	vertical-align:top;
+}
+
+section#navigation {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 30%;
+}
+
+#navigation {
+	width: 200px;
+	display: inline-block;
+	vertical-align:top;
+}
+
+/* INDEX */
+#rabbit-banner {
+	border: 3px solid #FFAAA2;
+	border-radius: 30px;
+	display: block;
+	width: 500px;
+	margin: auto;
+}
+
+.shrub {
+	border: 1px solid white;
+	border-radius: 50px;
+}
+
+h1 {
+	font-size: 5em;
+	text-align: center;
+}
+
+
+/* ARTWORK */
+
+/* MUSIC */
+
+/* ABOUT */
