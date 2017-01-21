@@ -15,6 +15,14 @@ main {
 	margin-left: 3%;
 }
 
+a:hover {
+    color: orange;
+}
+
+a:active {
+	color: magenta;
+}
+
 /* INDEX */
 #rabbit-banner {
 	border: 3px solid #FFAAA2;
@@ -40,10 +48,13 @@ main {
 	border: 2px dotted #FFAAA2;
 	border-radius: 30px;
 	background-color: white;
-	width: 425px;
+	width: 420px;
+	height: 225px;
+	margin: 2px;
 	text-align: center;
 	display: inline-block;
 	vertical-align: top;
+	overflow-y: scroll;
 }
 
 
@@ -67,6 +78,21 @@ h1 {
 h2, h3, h4, h5 {
 	margin: 0 auto;
 }
+
+footer {
+	text-align: center;
+	font-size: .8em;
+	font-family: 'Avant Garde', sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+	body {
+		font-size: .8em;
+		width: 100%;
+	}
+}
+
+	
 
 
 /* ARTWORK */
