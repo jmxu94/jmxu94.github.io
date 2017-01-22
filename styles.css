@@ -83,7 +83,7 @@ footer {
 	top: 275px;
 }
 
-#nav-shrub {
+.nav-shrub {
 	border-radius: 5px;
 	margin-left: -5%;
 	margin-right: -5%;
@@ -192,7 +192,7 @@ table, th, td {
 		text-align: left;
 	}
 
-	#reflink {
+	.reflink {
 		margin-left: 100px;
 	}
 
