@@ -1,58 +1,58 @@
+/* ALL PAGES */
 body {
 	background: #FFDADA;
 	font-family: "Andale Mono", monospace;
 }
 
-.wrapper {
+.wrapper {	/* page wrapper */
 	width: 960px;
 	margin: 0 auto;
 	position: relative;
 	border: 1px solid red;
 }
 
-.pixels {
-	max-width: 300px;
-	text-align: center;
-	display: block;
-	vertical-align: middle;
-	margin: 0 auto;
-	margin-top: 10px;
-	padding: 10px;
-	background-color: pink;
-	border-radius: 20px;
-	border: 1px dotted white;
-}
-
 main {
 	width: 95%;
 }
 
-a:link {
+h1 {
+	font-size: 5em;
+	text-align: center;
+}
+
+h2, h3, h4, h5 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+a {
+	text-align: center;
+}
+
+a:link { /* stylize links */
 	color: hotpink;
 }
 
-a:visited {
+a:visited {	
 	color: red;
 }
 
-a:hover {
+a:hover {	
     color: orange;
 }
 
-a:active {
+a:active {	
 	color: magenta;
 }
 
-.sub-content {
-	padding: 10px;
-	border: 2px dotted #FFAAA2;
-	border-radius: 30px;
-	width: 420px;
-	margin: 0 auto;
-	display: block;
+footer {
+	font-size: .8em;
+	font-family: 'Avant Garde', sans-serif;
+	margin-top: 100px;
+}
+
+#ref {
 	text-align: center;
-	vertical-align: top;
-	background-color: white;
 }
 
 /* INDEX */
@@ -63,7 +63,6 @@ a:active {
 	display: block;
 	width: 500px;
 	margin: auto;
-
 }
 
 #gifs {
@@ -85,6 +84,18 @@ a:active {
 	top: 275px;
 }
 
+#nav-shrub {
+	border-radius: 5px;
+	margin-left: -5%;
+	margin-right: -5%;
+	margin-bottom: -6%;
+}
+
+.shrub {
+	border-radius: 5px;
+	margin-bottom: -2%;
+}
+
 .content {
 	padding: 10px;
 	border: 2px dotted #FFAAA2;
@@ -99,27 +110,6 @@ a:active {
 	background-color: white;
 }
 
-img#nav-shrub {
-	border-radius: 5px;
-	margin-left: -5%;
-	margin-right: -5%;
-	margin-bottom: -6%;
-}
-
-.shrub {
-	border-radius: 5px;
-	margin-bottom: -2%;
-}
-
-h1 {
-	font-size: 5em;
-	text-align: center;
-}
-
-h2, h3, h4, h5 {
-	margin: 0 auto;
-}
-
 .small-font {
 	font-size: .6em;
 	color: grey;
@@ -128,21 +118,6 @@ h2, h3, h4, h5 {
 table, th, td {
 	border: 2px solid lightblue;
 	border-collapse: collapse
-}
-
-footer {
-	text-align: left;
-	font-size: .8em;
-	font-family: 'Avant Garde', sans-serif;
-	margin-top:100px;
-
-}
-
-@media screen and (max-width: 500px) {
-	body {
-		font-size: .8em;
-		width: 100%;
-	}
 }
 
 #extra {
@@ -158,5 +133,91 @@ footer {
 	overflow-y: scroll;
 	color: grey;
 	font-size: .6em;
+}
+
+/* SUB PAGES */
+.sub-content {
+	padding: 10px;
+	border: 2px dotted #FFAAA2;
+	border-radius: 30px;
+	width: 420px;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	vertical-align: top;
+	background-color: white;
+}
+
+.pixels {
+	max-width: 300px;
+	text-align: center;
+	display: block;
+	vertical-align: middle;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: pink;
+	border-radius: 20px;
+	border: 1px dotted white;
+}
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 500px) { 
+
+	body {
+		font-size: .8em;
+	}
+
+	#rabbit-banner {
+		width: 200px;
+		margin-left: 230px;
+		margin-top: 30px;
+	}	
+
+	#navigation {
+		display: block;
+		left: 5px;
+		top: 20px;
+	}
+
+	.content {
+		display: block;
+	}
+
+	h1 {
+		font-size: 3em;
+		text-align: left;
+	}
+
+	#ref {
+		text-align: left;
+	}
+
+	#reflink {
+		margin-left: 100px;
+	}
+
+	h2, h3, h4, h5 {
+		text-align: left;
+	}
+
+	#gifs {
+		left: 270px;
+		top: 150px;
+		background-repeat: no-repeat;
+	}
+
+	#extra {
+		display: block;
+		margin-left: 2px;
+	}
+
+	.sub-content {
+		margin-left: 2px;
+	}
+
+	.pixels {
+		margin-left: 2px;
+	}
 
 }
