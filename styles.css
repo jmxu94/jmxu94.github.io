@@ -3,17 +3,28 @@ body {
 	font-family: "Andale Mono", monospace;
 }
 
-#wrapper {
+.wrapper {
 	width: 960px;
 	margin: 0 auto;
 	position: relative;
+	border: 1px solid red;
 }
 
-
+.pixels {
+	max-width: 300px;
+	text-align: center;
+	display: block;
+	vertical-align: middle;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: pink;
+	border-radius: 20px;
+	border: 1px dotted white;
+}
 
 main {
 	width: 95%;
-	margin-left: 3%;
 }
 
 a:link {
@@ -30,6 +41,18 @@ a:hover {
 
 a:active {
 	color: magenta;
+}
+
+.sub-content {
+	padding: 10px;
+	border: 2px dotted #FFAAA2;
+	border-radius: 30px;
+	width: 420px;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	vertical-align: top;
+	background-color: white;
 }
 
 /* INDEX */
@@ -108,9 +131,11 @@ table, th, td {
 }
 
 footer {
-	text-align: center;
+	text-align: left;
 	font-size: .8em;
 	font-family: 'Avant Garde', sans-serif;
+	margin-top:100px;
+
 }
 
 @media screen and (max-width: 500px) {
@@ -135,9 +160,3 @@ footer {
 	font-size: .6em;
 
 }
-
-/* ARTWORK */
-
-/* MUSIC */
-
-/* ABOUT */
