@@ -170,13 +170,13 @@ table, th, td {
 	#rabbit-banner {
 		width: 200px;
 		margin-left: 230px;
-		margin-top: 30px;
+		margin-top: 40px;
 	}	
 
 	#navigation {
 		display: block;
 		left: 5px;
-		top: 20px;
+		top: 0px;
 	}
 
 	.content {
@@ -201,8 +201,8 @@ table, th, td {
 	}
 
 	#gifs {
-		left: 270px;
-		top: 150px;
+		left: 290px;
+		top: 130px;
 		background-repeat: no-repeat;
 	}
 
