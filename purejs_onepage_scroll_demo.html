@@ -2,22 +2,21 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>jQuery One Page Scroll by Pete R. | The Pete Design</title>
-	<meta name="title" content="jQuery One Page Scroll by Pete R. | The Pete Design" />
-	<meta name="description" content="Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin" />
-	<link rel="image_src" href="/images/notify_better_image.png" />
-
-	<meta content="http://www.thepetedesign.com/demos/onepage_scroll_demo.html" property="og:url" />
+	<title>Pure JS One Page Scroll by Pete R. | The Pete Design</title>
+	<meta name="title" content="Pure JS One Page Scroll by Pete R. | The Pete Design" />
+	<meta name="description" content="Pure JS One Page Scroll is the javascript version (no need for jQuery any more) of the infamous jQuery One Page Scroll. Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin" />
+	<link rel="image_src" href="/images/onepage_scroll_image.png" />
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="http://www.thepetedesign.com/demos/purejs_onepage_scroll_demo.html" property="og:url" />
 	<meta content="http://www.thepetedesign.com/images/onepage_scroll_image.png" property="og:image" />
 	<link rel="shortcut icon" id="favicon" href="favicon.png"> 
 	<meta name="author" content="Pete R.">
-	<link rel="canonical" href="http://www.thepetedesign.com/demos/onepage_scroll_demo.html" />
+	<link rel="canonical" href="http://www.thepetedesign.com/demos/purejs_onepage_scroll_demo.html" />
+
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-  <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+  <script type="text/javascript" src="onepagescroll.js"></script>
   <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
-  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
   <style>
     html {
       height: 100%;
@@ -189,7 +188,11 @@
       color: rgba(0,0,0,0.5);
       padding: 10px;
       width: 410px;
+      font-style: italic;
+      opacity: 0.7;
       clear: both;
+      margin-top: 45px;
+      float: left;
     }
     .credit a {
       color: rgba(0,0,0,0.85);
@@ -248,13 +251,18 @@
       background:rgb(230, 217, 200);
     }
     .main section.page1 h1 {
-      text-align: left;
+      float: none;
+      width: 435px;
+      display: block;
+      text-align: center;
       padding: 0;
       margin-bottom: 15px;
-      font-size: 70px;
+      font-size: 44px;
       color: black;
     }
     .main section.page1 h2 {
+      font-size: 18px;
+      display: block;
       color: rgba(0,0,0,0.85);
       text-align: center;
       width: 435px;
@@ -323,7 +331,6 @@
       font-weight: 100;
       font-size: 21px;
     }
-    
     body.disabled-onepage-scroll .onepage-wrapper  section {
       min-height: 100%;
       height: auto;
@@ -340,6 +347,7 @@
     body.disabled-onepage-scroll  section .page_container h1{
       text-align: center;
       font-size: 50px;
+      width: 100%;
     }
     body.disabled-onepage-scroll section .page_container h2, body.disabled-onepage-scroll section .page_container .credit, body.disabled-onepage-scroll section .page_container .btns{
       text-align: center;
@@ -370,29 +378,48 @@
       margin-right: auto;
       right: 0;
     }
+    .main section.page1 h1 strong {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 16px;
+      padding: 10px 10px;
+      display: inline-block;
+      line-height: 140%;
+      background: #FFF;
+      border-radius: 3px;
+      position: relative;
+      top: -13px;
+      
+    }
+    
+    .text-btn {
+      display: block;
+      color: #000;
+      border-bottom: 2px dotted #000;
+      max-width: 300px;
+      margin: 30px auto 30px;
+      line-height: 200%;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 14px;
+    }
 	</style>
-	<script>
-	  $(document).ready(function(){
-      $(".main").onepage_scroll({
-        sectionContainer: "section",
-        responsiveFallback: 600,
-        loop: true
-      });
-		});
-		
-	</script>
 </head>
 <body>
-  <div class="wrapper">
+    
+    <div class="wrapper">	
 	  <div class="main">
 	    
       <section class="page1">
         <div class="page_container">
-          <h1>One Page Scroll</h1>
-          <h2>Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin</h2>
-          <p class="credit">Created by <a href="http://www.thepetedesign.com">Pete R.</a>, Founder of <a href="http://www.bucketlistly.com" target="_blank">BucketListly</a></p>
+          <h1><strong>Pure JS</strong> One Page Scroll v1.2</h1>
+          <h2>Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin. (<strong>No jQuery Required</strong>)</h2>
+          <p class="credit">Created by <a href="http://www.thepetedesign.com">Pete R.</a>, Founder of <a href="http://www.Travelistly.com" target="_blank">Travelistly</a> &amp; <a href="http://www.bucketlistly.com" target="_blank">BucketListly</a></p>
           <div class="btns">
-  	        <a class="reload btn" href="https://github.com/peachananr/onepage-scroll">Download on Github</a>
+            
+  	        <a class="reload btn" href="https://github.com/peachananr/purejs-onepage-scroll">Download on Github</a>
+  	        <a class="text-btn" href="http://www.thepetedesign.com/demos/onepage_scroll_demo.html">Looking for a jQuery version?</a>
   	      </div>
   	    </div>
   	    <img src="phones.png" alt="phones">
@@ -409,9 +436,8 @@
   	          ...<br>
   	        &lt;/div&gt;
   	      </code>
-  	      
   	      <code class="js">
-	          $(".main").onepage_scroll();
+	          onePageScroll(".main");
 	        </code>
 	      </div>
       </section>
@@ -419,15 +445,24 @@
 	    <section class="page3">
 	      <div class="page_container">
           <h1>Pretty Neat Eh?</h1>
-          <h2>You can customise the animation timing, the selector or even the animation easing using CSS3. I can't wait to see what you guys will come up with. Don't forget to grab them for free on Github'</h2>
+          <h2>You can customize the animation timing, the selector or even the animation easing using CSS3. I can't wait to see what you guys will come up with. Don't forget to grab them for free on Github'</h2>
           <div class="btns">
-  	        <a class="reload btn" href="https://github.com/peachananr/onepage-scroll">Download on Github</a>
+  	        <a class="reload btn" href="https://github.com/peachananr/purejs-onepage-scroll">Download on Github</a>
   	      </div>
   	    </div>
       </section>
+      
     </div>
-    <a class="back" href="http://www.thepetedesign.com/#design">Back to The Pete Design</a>
-    <a href="https://github.com/peachananr/onepage-scroll"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+    <a class="back" href="http://www.thepetedesign.com/#plugins">Back to The Pete Design</a>
+    <a href="https://github.com/peachananr/purejs-onepage-scroll"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
   </div>
+  <script>
+	 onePageScroll(".main", {
+     sectionContainer: "section",
+     loop: true,
+     responsiveFallback: false
+   });
+		
+	</script>
 </body>
 </html>
