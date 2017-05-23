@@ -9,8 +9,8 @@
   <meta name="keywords"  content="fullpage,jquery,alvaro,trigo,plugin,fullscren,screen,full,iphone5,apple,pure,javascript,slider,hijacking" />
   <meta name="Resource-type" content="Document" />
 
-
   <link rel="stylesheet" type="text/css" href="javascript.fullPage.css" />
+  <link rel="stylesheet" type="text/css" href="firstPage.css" />
 
   <style>
     /* Reset CSS
@@ -92,16 +92,16 @@
 
     /* Section 1
      * --------------------------------------- */
-    #section0{
+    /*#section0{*/
       /*background-color: #BFDA00;*/
-    }
+  /*  }
     #section0 h1{
       color: #444;
     }
     #section0 p{
       color: #333;
       opacity: 0.4;
-    }
+    }*/
 
 
     /* Section 2
@@ -130,12 +130,26 @@
 </head>
 <body>
 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+  <script src="jquery.scrollmagic.min.js"></script>
+  <script src="jquery.scrollmagic.debug.js"></script>
+
+<script>
+  var controller = new ScrollMagic.Controller();
+</script>
 
 <div id="fullpage">
+
+
   <div class="section" id="section0">
-    <div class="testcontent">
-    </div>
+    <div id="ocean"></div>
+    <div id="ocean1"></div>
+    <div id="ocean2"></div>
+    
   </div>
+
+
   <div class="section" id="section1">
     <div class="slide" id="slide1">
       <div class="content">

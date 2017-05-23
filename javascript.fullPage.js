@@ -5,6 +5,7 @@
  *
  * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
  */
+ 
 (function( root, window, document, factory, undefined ) {
     if( typeof define === 'function' && define.amd ) {
         // AMD. Register as an anonymous module.
