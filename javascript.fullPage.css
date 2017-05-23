@@ -5,6 +5,19 @@
  *
  * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
  */
+
+.testcontent {
+    background: url(page-1-mockup.png);
+    background-repeat: repeat-x;
+    animation: backgroundScroll 20s linear infinite;  
+    height: 100%;
+ }
+
+@keyframes backgroundScroll {
+from {background-position: 0 0;}  
+to {background-position: 980px 0;}  
+}
+
 html.fp-enabled,
 .fp-enabled body {
     margin: 0;
