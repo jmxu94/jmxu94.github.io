@@ -1,83 +1,164 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-	<meta charset="utf-8">
-	<title>Julia Xu</title>
-	<meta name="title" content="Julia Xu | Portfolio" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>fullPage.js - Pure Javascript version</title>
+  <meta name="author" content="Alvaro Trigo Lopez" />
+  <meta name="description" content="fullPage plugin by Alvaro Trigo. Pure javascript version of full screen slider." />
+  <meta name="keywords"  content="fullpage,jquery,alvaro,trigo,plugin,fullscren,screen,full,iphone5,apple,pure,javascript,slider,hijacking" />
+  <meta name="Resource-type" content="Document" />
 
-	<meta name="description" content="Pure JS One Page Scroll is the javascript version (no need for jQuery any more) of the infamous jQuery One Page Scroll. Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin" />
-	<link rel="image_src" href="/images/onepage_scroll_image.png" />
-  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
-	<meta content="http://www.thepetedesign.com/demos/purejs_onepage_scroll_demo.html" property="og:url" />
-	<meta content="http://www.thepetedesign.com/images/onepage_scroll_image.png" property="og:image" />
-	<link rel="shortcut icon" id="favicon" href="favicon.png">
-	<meta name="author" content="Pete R.">
-	<link rel="canonical" href="http://www.thepetedesign.com/demos/purejs_onepage_scroll_demo.html" />
 
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
-  <script type="text/javascript" src="onepagescroll.js"></script>
-  <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
-	<link href='main.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="javascript.fullPage.css" />
 
+  <style>
+    /* Reset CSS
+     * --------------------------------------- */
+    body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+    form,fieldset,input,textarea,p,blockquote,th,td {
+        padding: 0;
+        margin: 0;
+    }
+    a{
+      text-decoration:none;
+    }
+    table {
+        border-spacing: 0;
+    }
+    fieldset,img {
+        border: 0;
+    }
+    address,caption,cite,code,dfn,em,strong,th,var {
+        font-weight: normal;
+        font-style: normal;
+    }
+    strong{
+      font-weight: bold;
+    }
+    ol,ul {
+        list-style: none;
+        margin:0;
+        padding:0;
+    }
+    caption,th {
+        text-align: left;
+    }
+    h1,h2,h3,h4,h5,h6 {
+        font-weight: normal;
+        font-size: 100%;
+        margin:0;
+        padding:0;
+        color:#444;
+    }
+    q:before,q:after {
+        content:'';
+    }
+    abbr,acronym { border: 0;
+    }
+    /* Custom CSS
+     * --------------------------------------- */
+    body{
+      font-family: arial,helvetica;
+      color: #F2F2F2;
+    }
+    h1{
+      font-size: 6em;
+    }
+    p{
+      font-size: 2em;
+    }
+    .content{
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center;
+    }
+    /* Section 1
+     * --------------------------------------- */
+    #section0{
+      background-color: #BFDA00;
+    }
+    #section0 h1{
+      color: #444;
+    }
+    #section0 p{
+      color: #333;
+      opacity: 0.4;
+    }
+    /* Section 2
+     * --------------------------------------- */
+    #section1{
+      background-color: #2EBE21;
+    }
+    #section1 h1{
+      color: #fff;
+    }
+    #section1 p{
+      opacity: 0.8;
+    }
+    /* Section 3
+     * --------------------------------------- */
+    #section2{
+      background-color: #2C3E50;
+    }
+    #section2 h1{
+      color: #F2F2F2;
+    }
+    #section2 p{
+      opacity: 0.6;
+    }
+  </style>
 </head>
 <body>
 
-    <div class="wrapper">
-	  <div class="main">
 
-      <section class="page1">
-        <div class="page_container">
-          <h1><strong>Pure JS</strong> One Page Scroll v1.2</h1>
-          <h2>Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin. (<strong>No jQuery Required</strong>)</h2>
-          <p class="credit">Created by <a href="http://www.thepetedesign.com">Pete R.</a>, Founder of <a href="http://www.Travelistly.com" target="_blank">Travelistly</a> &amp; <a href="http://www.bucketlistly.com" target="_blank">BucketListly</a></p>
-          <div class="btns">
-
-  	        <a class="reload btn" href="https://github.com/peachananr/purejs-onepage-scroll">Download on Github</a>
-  	        <a class="text-btn" href="http://www.thepetedesign.com/demos/onepage_scroll_demo.html">Looking for a jQuery version?</a>
-  	      </div>
-  	    </div>
-  	    <img src="phones.png" alt="phones">
-      </section>
-
-	    <section class="page2">
-	      <div class="page_container">
-          <h1>Ready-to-use plugin</h1>
-          <h2>All you need is an HTML markup, call the script and BAM!</h2>
-          <code class="html">
-  	        &lt;div class="main"&gt;<br>
-  	          &lt;section&gt;...&lt;/section&gt;<br>
-  	          &lt;section&gt;...&lt;/section&gt;<br>
-  	          ...<br>
-  	        &lt;/div&gt;
-  	      </code>
-  	      <code class="js">
-	          onePageScroll(".main");
-	        </code>
-	      </div>
-      </section>
-
-	    <section class="page3">
-	      <div class="page_container">
-          <h1>Pretty Neat Eh?</h1>
-          <h2>You can customize the animation timing, the selector or even the animation easing using CSS3. I can't wait to see what you guys will come up with. Don't forget to grab them for free on Github'</h2>
-          <div class="btns">
-  	        <a class="reload btn" href="https://github.com/peachananr/purejs-onepage-scroll">Download on Github</a>
-  	      </div>
-  	    </div>
-      </section>
-
+<div id="fullpage">
+  <div class="section " id="section0">
+    <div class="content">
+      <h1>fullPage.js</h1>
+      <p>Javascript only version</p>
     </div>
-    <a class="back" href="http://www.thepetedesign.com/#plugins">Back to The Pete Design</a>
-    <a href="https://github.com/peachananr/purejs-onepage-scroll"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
   </div>
-  <script>
-	 onePageScroll(".main", {
-     sectionContainer: "section",
-     loop: true,
-     responsiveFallback: false
-   });
+  <div class="section" id="section1">
+    <div class="slide" id="slide1">
+      <div class="content">
+        <h1>No need for jQuery</h1>
+        <p>
+          5 Kb gzipped!!
+        </p>
+        <p>
+              Improve the loading time of your site!
+        </p>
+      </div>
+    </div>
+    <div class="slide" id="slide2">
+      <div class="content">
+        <h1>Slides too!</h1>
+      </div>
+    </div>
+    <div class="slide" id="slide2">
+      <div class="content">
+        <h1>More slides!</h1>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="section2">
+    <div class="content">
+      <h1>Compatible</h1>
+      <p>IE 8+ support.</p>
+    </div>
+  </div>
+</div>
 
-	</script>
+<script type="text/javascript" src="javascript.fullPage.js"></script>
+<script type="text/javascript">
+  fullpage.initialize('#fullpage', {
+    anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+    menu: '#menu',
+    css3:true
+  });
+</script>
+
 </body>
 </html>
