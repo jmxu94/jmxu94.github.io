@@ -21,8 +21,8 @@
   background-repeat: repeat-x;
 
   background-position:  center top 20px,
-                        center top 30px,
-                        center top 30px,
+                        center top 20px,
+                        center top 20px,
                         center top 300px;
 
   animation: cloudScroll 150s linear infinite; 
