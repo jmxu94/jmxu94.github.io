@@ -19,14 +19,14 @@
 
   background-repeat: repeat-x;
 
-  background-position-y: 10%;
+  background-position: center bottom 275px;
 
   animation: cloudScroll 150s linear infinite; 
  }
 
 @keyframes cloudScroll {
   from {background-position-x: 0, 0, 0}  
-  to {background-position-x: 2205px, 1470px, 735px}  
+  to {background-position-x: 800%, 600%, 400%}  
 }
 
 #section0 #ocean {
