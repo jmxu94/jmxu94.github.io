@@ -15,11 +15,15 @@
 
   background: url(assets/clouds-1.png), 
               url(assets/clouds-2.png),
-              url(assets/clouds-3.png);
+              url(assets/clouds-3.png),
+              linear-gradient(white, white);
 
   background-repeat: repeat-x;
 
-  background-position: center bottom 275px;
+  background-position:  center top 110px,
+                        center top 95px,
+                        center top 80px,
+                        center top 400px;
 
   animation: cloudScroll 150s linear infinite; 
  }
@@ -47,14 +51,14 @@
                       repeat-x;
 
   background-position:  center bottom,
-                        right bottom 150px,
-                        center bottom 70px,
-                        center bottom 75px;
+                        right bottom 160px,
+                        center bottom 90px,
+                        center bottom 120px;
 
   animation: oceanScroll 8s ease-in-out alternate infinite; 
  }
 
 @keyframes oceanScroll {
-  from {background-position-x: 0, 90%, 0, 0;}  
-  to {background-position-x: -50%, 100%, -35%, -20%;}  
+  from {background-position-x: 0, 85%, 0, 0;}  
+  to {background-position-x: -50%, 95%, -35%, -20%;}  
 }
