@@ -30,20 +30,19 @@
 
 @keyframes cloudScroll {
   from {background-position-x: 0, 0, 0}  
-  to {background-position-x: 1200%, 800%, 400%}  
+  to {background-position-x: 800%, 400%, 200%}  
 }
 
 #section0 #ocean {
   position: absolute;
-  border: 3px solid red;
   height: 100%;
   width: 100%;
   z-index: 2;
 
-  background:   url(assets/ocean-1.png),
-                url(assets/ship.png),
-                url(assets/ocean-2.png),
-                url(assets/ocean-3.png);
+  background: url(assets/ocean-1.png),
+              url(assets/ship.png),
+              url(assets/ocean-2.png),
+              url(assets/ocean-3.png);
 
   background-repeat:  repeat-x,
                       no-repeat,
@@ -61,4 +60,17 @@
 @keyframes oceanScroll {
   from {background-position-x: 0, 85%, 0, 0;}  
   to {background-position-x: -50%, 95%, -35%, -20%;}  
+}
+
+#section0 #scroll {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+
+  background: url(assets/scroll-icon.gif);
+
+  background-repeat: no-repeat;
+
+  background-position: center bottom 30px;
 }
