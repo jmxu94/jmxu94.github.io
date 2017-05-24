@@ -31,6 +31,7 @@
 
 #section0 #ocean {
   position: absolute;
+  border: 3px solid red;
   height: 100%;
   width: 100%;
   z-index: 2;
@@ -45,15 +46,15 @@
                       repeat-x,
                       repeat-x;
 
-  background-position-y:  bottom,
-                          65%,
-                          75%,
-                          72.5%;
+  background-position:  center bottom,
+                        right bottom 150px,
+                        center bottom 70px,
+                        center bottom 75px;
 
   animation: oceanScroll 8s ease-in-out alternate infinite; 
  }
 
 @keyframes oceanScroll {
   from {background-position-x: 0, 90%, 0, 0;}  
-  to {background-position-x: 300px, 100%, 200px, 100px;}  
+  to {background-position-x: -50%, 100%, -35%, -20%;}  
 }
