@@ -74,3 +74,16 @@
 
   background-position: center bottom 30px;
 }
+
+#section0 #title {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+
+  background: url(assets/front-page-title.png);
+
+  background-repeat: no-repeat;
+
+  background-position: left 50px bottom 365px;
+}
