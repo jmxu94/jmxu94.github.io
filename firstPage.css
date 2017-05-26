@@ -1,12 +1,3 @@
-#section0 {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  z-index: 0;
-
-  background: linear-gradient(#e1faff, white);
-}
-
 #section0 #clouds {
   position: absolute;
   height: 100%;
