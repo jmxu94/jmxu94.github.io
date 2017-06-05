@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta charset="UTF-8"/>
+
   <title>WIP! Portfolio</title>
+
   <meta name="author" content="Julia Xu" />
   <meta name="description" content="Julia Xu Web Portfolio" />
-  <meta name="keywords"  content="julia,xu,portfolio,web,development,ruby,rails,javascript,pixelart" />
-  <meta name="Resource-type" content="Document" />
+  <meta name="keywords"  content="julia,xu,portfolio,web,development,ruby,rails,javascript,pixelart,resume" />
 
   <link rel="stylesheet" type="text/css" href="javascript.fullPage.css" />
   <link rel="stylesheet" type="text/css" href="main.css" />
@@ -16,119 +14,31 @@
   <link rel="stylesheet" type="text/css" href="thirdPage.css" />
   <link rel="stylesheet" type="text/css" href="fourthPage.css" />
   <link rel="stylesheet" type="text/css" href="fifthPage.css" />
-
-  <style>
-    /* Reset CSS
-     * --------------------------------------- */
-    body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
-    form,fieldset,input,textarea,p,blockquote,th,td {
-        padding: 0;
-        margin: 0;
-    }
-    a{
-      text-decoration:none;
-    }
-    table {
-        border-spacing: 0;
-    }
-    fieldset,img {
-        border: 0;
-    }
-    address,caption,cite,code,dfn,em,strong,th,var {
-        font-weight: normal;
-        font-style: normal;
-    }
-    strong{
-      font-weight: bold;
-    }
-    ol,ul {
-        list-style: none;
-        margin:0;
-        padding:0;
-    }
-    caption,th {
-        text-align: left;
-    }
-    h1,h2,h3,h4,h5,h6 {
-        font-weight: normal;
-        font-size: 100%;
-        margin:0;
-        padding:0;
-        color:#444;
-    }
-    q:before,q:after {
-        content:'';
-    }
-    abbr,acronym { border: 0;
-    }
-    /* Custom CSS
-     * --------------------------------------- */
-    body{
-      font-family: arial,helvetica;
-      color: #F2F2F2;
-    }
-    h1{
-      font-size: 6em;
-    }
-    p{
-      font-size: 2em;
-    }
-
-/*
-    .content{
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
-      text-align: center;
-      border: solid 1px red;
-    }*/
-
-    .content {
-      position: absolute;
-      z-index: 0;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 100%;
-      height: 100%;
-      /*text-align: center;*/
-    }
-
-
-    /* Section 3
-     * --------------------------------------- */
-    #section2{
-      background-color: #2C3E50;
-    }
-    #section2 h1{
-      color: #F2F2F2;
-    }
-    #section2 p{
-      opacity: 0.6;
-    }
-  </style>
 </head>
+
 <body>
+<div id="menu">
+  <a href="#home">Home</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#timeline">Timeline</a>
+  <a href="#contact">Contact</a>
+</div>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
-  <script src="jquery.scrollmagic.min.js"></script>
-  <script src="jquery.scrollmagic.debug.js"></script>
-
-<script>
-  var controller = new ScrollMagic.Controller();
-</script>
 
 <div id="fullpage">
 
-  <div class="section" id="section0">
+
+
+
+  <div class="section" id="section1">
     <div class="clouds"></div>
     <div class="ocean"></div>
     <div class="scroll"></div>
     <div id="title"></div>
   </div>
 
-  <div class="section" id="section1">
+  <div class="section" id="section2">
     <div class="earth"></div>
 
     <div class="slide" id="slide1">
@@ -148,15 +58,15 @@
     </div>
   </div>
 
-  <div class="section" id="section2">
-    <div class="earth"></div>
-  </div>
-
   <div class="section" id="section3">
     <div class="earth"></div>
   </div>
 
   <div class="section" id="section4">
+    <div class="earth"></div>
+  </div>
+
+  <div class="section" id="section5">
     <div class="clouds"></div>
     <div class="ocean"></div>
     <div class="scroll"></div>
@@ -167,9 +77,9 @@
 <script type="text/javascript" src="javascript.fullPage.js"></script>
 <script type="text/javascript">
   fullpage.initialize('#fullpage', {
-    anchors: ['main', 'projects', 'skills', 'timeline', 'contact'],
+    anchors: ['home', 'projects', 'skills', 'timeline', 'contact'],
     menu: '#menu',
-    css3:true
+    css3: true
   });
 </script>
 

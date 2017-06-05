@@ -1,4 +1,4 @@
-#section4 .clouds {
+#section5 .clouds {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -24,24 +24,21 @@
   to {background-position-x: 800%, 400%, 200%}  
 }
 
-#section4 .ocean {
+#section5 .ocean {
   position: absolute;
   height: 100%;
   width: 100%;
   z-index: 2;
 
   background: url(assets/ocean-1.png),
-              url(assets/ship.png),
               url(assets/ocean-2.png),
               url(assets/ocean-3.png);
 
   background-repeat:  repeat-x,
-                      no-repeat,
                       repeat-x,
                       repeat-x;
 
   background-position:  center bottom,
-                        right bottom 150px,
                         center bottom 70px,
                         center bottom 90px;
 
@@ -49,11 +46,11 @@
  }
 
 @keyframes oceanScroll {
-  from {background-position-x: 0, 85%, 0, 0;}  
-  to {background-position-x: -50%, 95%, -35%, -20%;}  
+  from {background-position-x: 0, 0, 0;}  
+  to {background-position-x: -50%, -35%, -20%;}  
 }
 
-#section4 .scroll {
+#section5 .scroll {
   position: absolute;
   height: 100%;
   width: 100%;

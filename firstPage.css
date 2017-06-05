@@ -1,4 +1,4 @@
-#section0 .clouds {
+#section1 .clouds {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -24,7 +24,7 @@
   to {background-position-x: 800%, 400%, 200%}  
 }
 
-#section0 .ocean {
+#section1 .ocean {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -45,15 +45,15 @@
                         center bottom 70px,
                         center bottom 90px;
 
-  animation: oceanScroll 8s ease-in-out alternate infinite; 
+  animation: boatScroll 8s ease-in-out alternate infinite; 
  }
 
-@keyframes oceanScroll {
+@keyframes boatScroll {
   from {background-position-x: 0, 85%, 0, 0;}  
   to {background-position-x: -50%, 95%, -35%, -20%;}  
 }
 
-#section0 .scroll {
+#section1 .scroll {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -66,7 +66,7 @@
   background-position: center bottom 30px;
 }
 
-#section0 #title {
+#section1 #title {
   position: absolute;
   height: 100%;
   width: 100%;
