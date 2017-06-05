@@ -1,4 +1,8 @@
-$(document).on("#section2", function(){
-  $('a #home').removeClass('icon-active');
-  $('a #projects').addClass('icon-active');
+$(window).on('hashchange', function() {
+   $("#nav a").each(function() {   
+      if (this.href == window.location.href) {
+          $("#nav a").removeClass("icon-active");
+          $(this).addClass("icon-active");
+      }
+  });
 });
