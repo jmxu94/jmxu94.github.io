@@ -34,7 +34,6 @@ body {
   -webkit-box-shadow: 0px 3px 5px white;
   -moz-box-shadow: 0px 3px 5px white;
   box-shadow: 0px 3px 5px white;
-
 }
 
 #nav a {
@@ -48,7 +47,7 @@ body {
 }
 
 #nav a:hover {
-    background-color: black; /* Add a hover color */
+    background-color: #67a7f7; /* Add a hover color */
 }
 
 .icon-active {
