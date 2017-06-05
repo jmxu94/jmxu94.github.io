@@ -13,6 +13,9 @@
   <link rel="stylesheet" type="text/css" href="main.css" />
   <link rel="stylesheet" type="text/css" href="firstPage.css" />
   <link rel="stylesheet" type="text/css" href="secondPage.css" />
+  <link rel="stylesheet" type="text/css" href="thirdPage.css" />
+  <link rel="stylesheet" type="text/css" href="fourthPage.css" />
+  <link rel="stylesheet" type="text/css" href="fifthPage.css" />
 
   <style>
     /* Reset CSS
@@ -89,7 +92,6 @@
       width: 100%;
       height: 100%;
       /*text-align: center;*/
-      border: solid 1px blue;
     }
 
 
@@ -120,16 +122,14 @@
 <div id="fullpage">
 
   <div class="section" id="section0">
-    <div id="clouds"></div>
-    <div id="ocean"></div>
-    <div id="scroll"></div>
+    <div class="clouds"></div>
+    <div class="ocean"></div>
+    <div class="scroll"></div>
     <div id="title"></div>
   </div>
 
-
   <div class="section" id="section1">
-  
-    <div id="earth"></div>
+    <div class="earth"></div>
 
     <div class="slide" id="slide1">
       <div class="content">
@@ -141,24 +141,33 @@
         <!-- <h1>Slides too!</h1> -->
       </div>
     </div>
-    <div class="slide" id="slide2">
+    <div class="slide" id="slide3">
       <div class="content">
         <!-- <h1>More slides!</h1> -->
       </div>
     </div>
   </div>
+
   <div class="section" id="section2">
-    <div class="content">
-      <!-- <h1>Compatible</h1> -->
-      <!-- <p>IE 8+ support.</p> -->
-    </div>
+    <div class="earth"></div>
   </div>
+
+  <div class="section" id="section3">
+    <div class="earth"></div>
+  </div>
+
+  <div class="section" id="section4">
+    <div class="clouds"></div>
+    <div class="ocean"></div>
+    <div class="scroll"></div>
+  </div>
+
 </div>
 
 <script type="text/javascript" src="javascript.fullPage.js"></script>
 <script type="text/javascript">
   fullpage.initialize('#fullpage', {
-    anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+    anchors: ['main', 'projects', 'skills', 'timeline', 'contact'],
     menu: '#menu',
     css3:true
   });

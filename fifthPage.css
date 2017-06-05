@@ -1,4 +1,4 @@
-#section0 .clouds {
+#section4 .clouds {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -24,7 +24,7 @@
   to {background-position-x: 800%, 400%, 200%}  
 }
 
-#section0 .ocean {
+#section4 .ocean {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -53,28 +53,15 @@
   to {background-position-x: -50%, 95%, -35%, -20%;}  
 }
 
-#section0 .scroll {
+#section4 .scroll {
   position: absolute;
   height: 100%;
   width: 100%;
   z-index: 3;
 
-  background: url(assets/scroll-icon.gif);
+  background: url(assets/scroll-up.gif);
 
   background-repeat: no-repeat;
 
   background-position: center bottom 30px;
-}
-
-#section0 #title {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: 3;
-
-  background: url(assets/front-page-title.png);
-
-  background-repeat: no-repeat;
-
-  background-position: left 50px bottom 365px;
 }
