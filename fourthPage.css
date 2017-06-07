@@ -30,8 +30,6 @@
   width: 70%;
   z-index: 2;
 
-  border: 5px solid red;
-
   top: 40%;
   left: 15%;
 
@@ -41,7 +39,9 @@
   float: left;
   height: 100%;
   width: 20%;
+}
 
-  border: 1px solid blue;
-  box-sizing: border-box;
+.event img {
+  display: block;
+  margin: auto;
 }
