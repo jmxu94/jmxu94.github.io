@@ -24,7 +24,7 @@
   to {background-position-x: 20%, 10%, -2%;}  
 }
 
-.timeline {
+.event-container {
   position: absolute;
   height: 15%;
   width: 70%;
@@ -53,4 +53,19 @@
 .event img:hover {
   opacity: 1;
   filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.event-content {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+
+  width: 40%;
+  height: 20%;
+
+  border: 1px solid red;
+
+  text-align: center;
+
+  display: none;
 }

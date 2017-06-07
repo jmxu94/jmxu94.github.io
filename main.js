@@ -9,12 +9,14 @@ $(document).ready(function() {
     });
   });
 
+  $('.event-content').first().css("display", "unset");
 
-$('.timeline').on('click', 'img', function() {
-  alert("hi");
-});
+  $('.event-container').on('click', 'img', function() {
+    $('.event-content').css("display", "none");
+    var ecNum = $('.event-container img').index(this);
 
-
+    $('#ec' + ecNum).css("display", "unset");
+  });
 
 })
 
