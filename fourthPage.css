@@ -16,12 +16,12 @@
                         center bottom -70px,
                         center bottom 50px;
 
-  animation: earthScroll 8s ease-in-out alternate infinite; 
+  animation: earthScroll 8s ease-in-out alternate infinite;
  }
 
 @keyframes earthScroll {
-  from {background-position-x: 0, 0, 0;}  
-  to {background-position-x: 20%, 10%, -2%;}  
+  from {background-position-x: 0, 0, 0;}
+  to {background-position-x: 20%, 10%, -2%;}
 }
 
 .event-container {
@@ -63,9 +63,22 @@
   width: 40%;
   height: 20%;
 
-  border: 1px solid red;
+  border-radius: 10px;
+  background-color: white;
+
+  font-size: 0.8em;
+
+  overflow: scroll;
 
   text-align: center;
 
   display: none;
+}
+
+.event-content h4 {
+  margin: 2%;
+}
+
+.event-content p {
+  margin: 2%
 }

@@ -1,5 +1,5 @@
 body {
-  font-family: 'Rationale';
+  font-family: 'Roboto', serif;
   font-size: 22px;
 }
 
@@ -20,6 +20,10 @@ body {
   z-index: 0;
 
   background: linear-gradient(#e1faff, white);
+}
+
+.section h2 {
+  padding: 10px;
 }
 
 #nav {
