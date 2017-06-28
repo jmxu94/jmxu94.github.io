@@ -30,17 +30,15 @@
 
 /*fix thumbnail, inconsistency with background image and having each ind thumbnail*/
 .project-thumbnail{
-  background: url(assets/cornman-thumbnail.png), url(assets/pokeoverflow-thumbnail.png);
-  background-repeat: no-repeat, no-repeat;
-  background-position: center center, center center;
-  height: 200px;
-  width: 250px;
   background-size: 300px;
   display: inline-block;
   margin: 2%;
-  opacity: 0.7;
   border-radius: 15px;
+}
 
+.project-thumbnail img {
+    opacity: 0.6;
+    transition: all 0.3s ease;
 }
 
 @keyframes earthScroll {
@@ -48,7 +46,6 @@
   to {background-position-x: 20%, 10%, -2%;}
 }
 
-.project-container div:hover {
+.project-thumbnail img:hover {
   opacity: 1;
-  box-shadow: 3px 3px grey;
 }

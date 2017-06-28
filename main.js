@@ -15,10 +15,17 @@ $(document).ready(function() {
     $('.event-content').css("display", "none");
     $('.event img').attr('style','');
 
-    $(this).css("opacity", "1");
+    $(this).css({"opacity": "1", "filter": "drop-shadow(1px 1px pink)"});
+
     var ecNum = $('.event-container img').index(this);
 
     $('#ec' + ecNum).css("display", "unset");
+  });
+
+  $('.project-thumbnail').on('click', 'img', function() {
+    $('.project-thumbnail img').attr('style','');
+
+    $(this).css({"opacity": "1", "filter": "drop-shadow(2px 2px pink)"});
   });
 
 })
