@@ -12,9 +12,9 @@
                       repeat-x,
                       repeat-x;
 
-  background-position:  center bottom -100px,
-                        center bottom -70px,
-                        center bottom 50px;
+  background-position:  center bottom -30px,
+                        center bottom 10px,
+                        center bottom 140px;
 
   animation: earthScroll 8s ease-in-out alternate infinite;
  }
@@ -30,7 +30,7 @@
   width: 70%;
   z-index: 2;
 
-  top: 40%;
+  top: 45%;
   left: 15%;
 
 }
@@ -57,28 +57,33 @@
 
 .event-content {
   position: absolute;
-  top: 15%;
-  left: 30%;
-
-  width: 40%;
-  height: 20%;
-
-  border-radius: 10px;
-  background-color: white;
 
   font-size: 0.8em;
-
-  overflow: scroll;
-
-  text-align: center;
 
   display: none;
 }
 
-.event-content h4 {
-  margin: 2%;
+.event-img {
+  float: left;
+  margin-left: 250px;
+  margin-top: -50px;
 }
 
-.event-content p {
-  margin: 2%
+.event-img img {
+  display: block;
+
+}
+
+.event-text {
+  margin-left: 400px;
+  margin-right: 200px;
+}
+
+.event-title {
+  margin-left: 400px;
+}
+
+.beginning-text {
+  margin-top: 8%;
+  text-align: center;
 }

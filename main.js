@@ -9,9 +9,10 @@ $(document).ready(function() {
     });
   });
 
-  $('.event-content').first().css("display", "unset");
+  // $('.event-content').first().css("display", "unset");
 
   $('.event').on('click', 'img', function() {
+    $('.beginning-text').css("display", "none");
     $('.event-content').css("display", "none");
     $('.event img').css("opacity", "0.5");
 

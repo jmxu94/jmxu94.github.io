@@ -12,14 +12,14 @@
                       repeat-x,
                       repeat-x;
 
-  background-position:  center bottom -100px,
-                        center bottom -70px,
-                        center bottom 50px;
+  background-position:  center bottom -30px,
+                        center bottom 10px,
+                        center bottom 140px;
 
-  animation: earthScroll 8s ease-in-out alternate infinite; 
+  animation: earthScroll 8s ease-in-out alternate infinite;
  }
 
 @keyframes earthScroll {
-  from {background-position-x: 0, 0, 0;}  
-  to {background-position-x: 20%, 10%, -2%;}  
+  from {background-position-x: 0, 0, 0;}
+  to {background-position-x: 20%, 10%, -2%;}
 }
