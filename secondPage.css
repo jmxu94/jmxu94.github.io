@@ -28,14 +28,14 @@
   text-align: center;
 }
 
+/*fix thumbnail, inconsistency with background image and having each ind thumbnail*/
 .project-thumbnail{
-  background: url(assets/cornman-thumbnail.png);
-  background-repeat: no-repeat;
-  background-position: center center;
+  background: url(assets/cornman-thumbnail.png), url(assets/pokeoverflow-thumbnail.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center center, center center;
   height: 200px;
   width: 250px;
   background-size: 300px;
-  /*border: solid 1px red;*/
   display: inline-block;
   margin: 2%;
   opacity: 0.7;
