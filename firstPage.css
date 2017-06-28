@@ -4,7 +4,7 @@
   width: 100%;
   z-index: 1;
 
-  background: url(assets/clouds-1.png), 
+  background: url(assets/clouds-1.png),
               url(assets/clouds-2.png),
               url(assets/clouds-3.png),
               linear-gradient(white, white);
@@ -16,12 +16,12 @@
                         center top 20px,
                         center top 300px;
 
-  animation: cloudScroll 150s linear infinite; 
+  animation: cloudScroll 150s linear infinite;
  }
 
 @keyframes cloudScroll {
-  from {background-position-x: 0, 0, 0}  
-  to {background-position-x: 800%, 400%, 200%}  
+  from {background-position-x: 0, 0, 0}
+  to {background-position-x: 800%, 400%, 200%}
 }
 
 #section1 .boat {
@@ -39,12 +39,12 @@
   background-position:  center bottom,
                         right bottom 150px;
 
-  animation: boatScroll 8s ease-in-out alternate infinite; 
+  animation: boatScroll 8s ease-in-out alternate infinite;
  }
 
 @keyframes boatScroll {
-  from {background-position-x: 0, 85%;}  
-  to {background-position-x: -50%, 95%;}  
+  from {background-position-x: 0, 85%;}
+  to {background-position-x: -50%, 95%;}
 }
 
 #section1 .ocean {
@@ -62,12 +62,12 @@
   background-position:  center bottom 70px,
                         center bottom 90px;
 
-  animation: waveScroll 8s ease-in-out alternate infinite; 
+  animation: waveScroll 8s ease-in-out alternate infinite;
  }
 
 @keyframes waveScroll {
-  from {background-position-x: 0, 0;}  
-  to {background-position-x: -35%, -20%;}  
+  from {background-position-x: 0, 0;}
+  to {background-position-x: -35%, -20%;}
 }
 
 
@@ -81,10 +81,10 @@
 
   background-repeat: no-repeat;
 
-  background-position: center bottom 30px;
+  background-position: center bottom 115px;
 }
 
-#section1 #title {
+#title-container {
   position: absolute;
   background: white;
   z-index: 2;
@@ -93,5 +93,22 @@
   height: 100%;
   left: 7.5%;
   top: 10%;
-  border: 3px solid #7a95f9;
+  border-radius: 20px;
+  opacity: 0.9;
+}
+
+#title-statement {
+  font-size: 2em;
+  text-align: center;
+  margin: 20px;
+}
+
+#title-content img {
+  width: 25px;
+  display: block;
+  margin: auto;
+}
+
+#title-content {
+  margin: 30px;
 }

@@ -4,7 +4,7 @@
   width: 100%;
   z-index: 1;
 
-  background: url(assets/clouds-1.png), 
+  background: url(assets/clouds-1.png),
               url(assets/clouds-2.png),
               url(assets/clouds-3.png),
               linear-gradient(white, white);
@@ -16,12 +16,12 @@
                         center top 20px,
                         center top 300px;
 
-  animation: cloudScroll 150s linear infinite; 
+  animation: cloudScroll 150s linear infinite;
  }
 
 @keyframes cloudScroll {
-  from {background-position-x: 0, 0, 0}  
-  to {background-position-x: 800%, 400%, 200%}  
+  from {background-position-x: 0, 0, 0}
+  to {background-position-x: 800%, 400%, 200%}
 }
 
 #section5 .ocean {
@@ -42,12 +42,12 @@
                         center bottom 70px,
                         center bottom 90px;
 
-  animation: oceanScroll 8s ease-in-out alternate infinite; 
+  animation: oceanScroll 8s ease-in-out alternate infinite;
  }
 
 @keyframes oceanScroll {
-  from {background-position-x: 0, 0, 0;}  
-  to {background-position-x: -50%, -35%, -20%;}  
+  from {background-position-x: 0, 0, 0;}
+  to {background-position-x: -50%, -35%, -20%;}
 }
 
 #section5 .scroll {
@@ -60,5 +60,5 @@
 
   background-repeat: no-repeat;
 
-  background-position: center bottom 30px;
+  background-position: center bottom 115px;
 }
