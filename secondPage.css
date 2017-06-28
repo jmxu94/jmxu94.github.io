@@ -20,7 +20,7 @@
  }
 
 .project-container {
-  margin-top: 40px;
+  margin-top: 20px;
   position: absolute;
   z-index: 2;
   height: 200px;
@@ -38,7 +38,7 @@
   /*border: solid 1px red;*/
   display: inline-block;
   margin: 2%;
-  opacity: 0.8;
+  opacity: 0.7;
   border-radius: 15px;
 
 }
