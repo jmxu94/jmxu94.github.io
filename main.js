@@ -24,8 +24,19 @@ $(document).ready(function() {
 
   $('.project-thumbnail').on('click', 'img', function() {
     $('.project-thumbnail img').attr('style','');
+    $('.project-lightbox').fadeIn(300);
+    $('.lightbox-content').css('display','none');
+
 
     $(this).css({"opacity": "1", "filter": "drop-shadow(2px 2px pink)"});
+
+    var projectNum = $('.project-container img').index(this);
+
+    $('#project' + projectNum).css("display", "unset");
   });
+
+  $('.exit').on('click', function() {
+    $('.project-lightbox').fadeOut(300);
+  })
 
 })

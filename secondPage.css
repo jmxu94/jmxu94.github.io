@@ -34,6 +34,7 @@
   display: inline-block;
   margin: 2%;
   border-radius: 15px;
+  z-index: 3;
 }
 
 .project-thumbnail img {
@@ -48,4 +49,30 @@
 
 .project-thumbnail img:hover {
   opacity: 1;
+}
+
+.project-lightbox {
+  display: none;
+  background-color: white;
+  opacity: 0.9;
+  position: absolute;
+  z-index: 4;
+  height: 75%;
+  width: 75%;
+  border-radius: 25px;
+
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.exit {
+  float: right;
+  margin: 20px;
+}
+
+.lightbox-content {
+  display: none;
 }
