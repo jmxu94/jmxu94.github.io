@@ -9,12 +9,11 @@ $(document).ready(function() {
     });
   });
 
-  // $('.event-content').first().css("display", "unset");
 
   $('.event').on('click', 'img', function() {
     $('.beginning-text').css("display", "none");
     $('.event-content').css("display", "none");
-    $('.event img').css("opacity", "0.5");
+    $('.event img').attr('style','');
 
     $(this).css("opacity", "1");
     var ecNum = $('.event-container img').index(this);

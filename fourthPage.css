@@ -48,6 +48,7 @@
   transition: all 0.3s ease;
   opacity: 0.5;
   filter: alpha(opacity=50); /* For IE8 and earlier */
+
 }
 
 .event img:hover {
