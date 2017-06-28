@@ -19,7 +19,36 @@
   animation: earthScroll 8s ease-in-out alternate infinite;
  }
 
+.project-container {
+  margin-top: 40px;
+  position: absolute;
+  z-index: 2;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+.project-thumbnail{
+  background: url(assets/cornman-thumbnail.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 200px;
+  width: 250px;
+  background-size: 300px;
+  /*border: solid 1px red;*/
+  display: inline-block;
+  margin: 2%;
+  opacity: 0.8;
+  border-radius: 15px;
+
+}
+
 @keyframes earthScroll {
   from {background-position-x: 0, 0, 0;}
   to {background-position-x: 20%, 10%, -2%;}
+}
+
+.project-container div:hover {
+  opacity: 1;
+  box-shadow: 3px 3px grey;
 }
