@@ -85,9 +85,9 @@
   background: white;
   z-index: 2;
 
-  width: 80%;
+  width: 50%;
   height: 100%;
-  left: 10%;
+  left: 25%;
   top: 10%;
   border-radius: 20px;
   opacity: 0.9;
@@ -106,5 +106,8 @@
 }
 
 #contact-content {
-  margin: 30px;
+  position: absolute;
+  left: 35%;
+  width: 30%;
+  z-index: 4;
 }
