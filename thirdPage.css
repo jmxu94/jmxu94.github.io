@@ -29,7 +29,7 @@
   background: white;
   z-index: 0;
 
-  width: 25%;
+  width: 41.25%;
   height: 100%;
   left: 7.5%;
   top: 10%;
@@ -37,28 +37,23 @@
   opacity: 0.9;
 }
 
+#aboutme-content {
+  font-size: .7em;
+}
+
 #skills-container {
   position: absolute;
   background: white;
   z-index: 0;
 
-  width: 25%;
+  width: 41.25%;
   height: 100%;
-  left: 37.5%;
+  left: 51.25%;
   top: 10%;
   border-radius: 20px;
   opacity: 0.9;
 }
 
-#workflow-container {
-  position: absolute;
-  background: white;
-  z-index: 0;
-
-  width: 25%;
-  height: 100%;
-  left: 67.5%;
-  top: 10%;
-  border-radius: 20px;
-  opacity: 0.9;
+#skills-content {
+  font-size: .7em;
 }
