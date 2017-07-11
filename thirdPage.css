@@ -6,7 +6,7 @@
 
   background: url(assets/earth.png);
   background-repeat:  repeat-x;
-  background-position:  center bottom 45%;
+  background-position:  center bottom 150px;
 
   animation: earth3Scroll 4s ease-in-out alternate infinite;
  }
@@ -26,8 +26,8 @@
               url(assets/ocean-2.png);
   background-repeat:  repeat-x,
                       repeat-x;
-  background-position:  center bottom -10%,
-                        center bottom 5%;
+  background-position:  center bottom -10px,
+                        center bottom 38px;
 
   animation: ocean3Scroll 4s ease-in-out alternate infinite;
  }
@@ -53,7 +53,7 @@
 
 #aboutme-content {
   font-weight: bold;
-  font-size: 1.4vw;
+  font-size: 1.39vw;
   margin: 5%;
 }
 
@@ -73,7 +73,7 @@
 
 #skills-content {
   font-weight: bold;
-  font-size: 1.4vw;
+  font-size: 1.39vw;
   margin: 5%;
 }
 

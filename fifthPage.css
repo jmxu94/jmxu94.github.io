@@ -8,18 +8,15 @@
               url(assets/clouds-2.png),
               url(assets/clouds-3.png),
               linear-gradient(white, white);
-
   background-repeat: repeat-x;
-
   background-position:  center top 20px,
                         center top 20px,
                         center top 20px,
                         center top 300px;
-
-  animation: cloudScroll 150s linear infinite;
+  animation: cloud5Scroll 150s linear infinite;
  }
 
-@keyframes cloudScroll {
+@keyframes cloud5Scroll {
   from {background-position-x: 0, 0, 0}
   to {background-position-x: 800%, 400%, 200%}
 }
@@ -31,15 +28,13 @@
   z-index: 3;
 
   background: url(assets/ocean-1.png);
-
   background-repeat:  repeat-x;
-
   background-position:  center bottom;
 
-  animation: oceanScroll 8s ease-in-out alternate infinite;
+  animation: ocean5Scroll 8s ease-in-out alternate infinite;
  }
 
-@keyframes oceanScroll {
+@keyframes ocean5Scroll {
   from {background-position-x: 0;}
   to {background-position-x: -50%;}
 }
@@ -52,17 +47,15 @@
 
   background: url(assets/ocean-2.png),
               url(assets/ocean-3.png);
-
   background-repeat:  repeat-x,
                       repeat-x;
-
   background-position:  center bottom 70px,
                         center bottom 90px;
 
-  animation: oceanScroll 8s ease-in-out alternate infinite;
+  animation: ocean5Scroll 8s ease-in-out alternate infinite;
  }
 
-@keyframes oceanScroll {
+@keyframes ocean5Scroll {
   from {background-position-x: 0, 0;}
   to {background-position-x: -35%, -20%;}
 }
@@ -74,9 +67,7 @@
   z-index: 3;
 
   background: url(assets/scroll-up.gif);
-
   background-repeat: no-repeat;
-
   background-position: center bottom 115px;
 }
 
@@ -107,7 +98,8 @@
 
 #contact-content {
   position: absolute;
-  left: 35%;
-  width: 30%;
+  left: 30%;
+  width: 40%;
   z-index: 4;
+  text-align: center;
 }
