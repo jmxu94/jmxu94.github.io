@@ -59,6 +59,7 @@
 
 .event-content {
   position: absolute;
+  z-index: 3;
 
   font-size: 0.8em;
 
