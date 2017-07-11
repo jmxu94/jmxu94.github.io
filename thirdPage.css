@@ -5,17 +5,15 @@
   z-index: 0;
 
   background: url(assets/earth.png);
-
   background-repeat:  repeat-x;
-
   background-position:  center bottom 45%;
 
-  animation: earth2Scroll 4s ease-in-out alternate infinite;
+  animation: earth3Scroll 4s ease-in-out alternate infinite;
  }
 
-@keyframes earth2Scroll {
+@keyframes earth3Scroll {
   from {background-position-x: 0;}
-  to {background-position-x: -2%;}
+  to {background-position-x: 2%;}
 }
 
 #section3 .ocean {
@@ -26,19 +24,17 @@
 
   background: url(assets/ocean-1.png),
               url(assets/ocean-2.png);
-
   background-repeat:  repeat-x,
                       repeat-x;
-
   background-position:  center bottom -10%,
                         center bottom 5%;
 
-  animation: ocean2Scroll 4s ease-in-out alternate infinite;
+  animation: ocean3Scroll 4s ease-in-out alternate infinite;
  }
 
-@keyframes ocean2Scroll {
+@keyframes ocean3Scroll {
   from {background-position-x: 0, 0;}
-  to {background-position-x: 30%, 20%;}
+  to {background-position-x: -30%, -20%;}
 }
 
 #aboutme-container {
@@ -85,8 +81,4 @@ img#julie {
   position: absolute;
   left: 6%;
   top: 12.5%;
-}
-
-span {
-  color: #FC3E5B;
 }

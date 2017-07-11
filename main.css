@@ -3,6 +3,10 @@ body {
   font-size: 22px;
 }
 
+span {
+  color: #FC3E5B;
+}
+
 .content {
   position: absolute;
   z-index: 0;
