@@ -8,9 +8,7 @@
               url(assets/clouds-2.png),
               url(assets/clouds-3.png),
               linear-gradient(white, white);
-
   background-repeat: repeat-x;
-
   background-position:  center top 20px,
                         center top 20px,
                         center top 20px,
@@ -32,11 +30,9 @@
 
   background: url(assets/ocean-1.png),
               url(assets/ship.png);
-
   background-repeat:  repeat-x,
                       no-repeat;
-
-  background-position:  center bottom,
+  background-position:  center bottom -10px,
                         right bottom 150px;
 
   animation: boatScroll 8s ease-in-out alternate infinite;
@@ -55,13 +51,10 @@
 
   background: url(assets/ocean-2.png),
               url(assets/ocean-3.png);
-
   background-repeat:  repeat-x,
                       repeat-x;
-
   background-position:  center bottom 70px,
                         center bottom 90px;
-
   animation: waveScroll 8s ease-in-out alternate infinite;
  }
 
@@ -69,7 +62,6 @@
   from {background-position-x: 0, 0;}
   to {background-position-x: -35%, -20%;}
 }
-
 
 #section1 .scroll {
   position: absolute;
@@ -92,7 +84,8 @@
   width: 50%;
   height: 100%;
   left: 7.5%;
-  top: 10%;
+  top: 5%;
+
   border-radius: 20px;
   opacity: 0.9;
 }
@@ -110,5 +103,7 @@
 }
 
 #title-content {
-  margin: 30px;
+  margin: 10%;
+  font-size: 1.6vw;
+  margin-top: 5%;
 }
