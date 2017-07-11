@@ -52,9 +52,9 @@
 }
 
 #aboutme-content {
-  font-weight: bold;
-  font-size: 1.39vw;
-  margin: 5%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25vw;
+  margin: 2.5%;
 }
 
 #skills-container {
@@ -72,9 +72,9 @@
 }
 
 #skills-content {
-  font-weight: bold;
-  font-size: 1.39vw;
-  margin: 5%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25vw;
+  margin: 2.5%;
 }
 
 img#julie {
