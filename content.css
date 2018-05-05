@@ -1,0 +1,42 @@
+body {
+  font-family: 'Roboto', serif;
+  font-size: 18px;
+}
+
+.content-container {
+  z-index: 5;
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  text-align: center;
+  visibility: hidden;
+}
+
+@keyframes fadein {
+  from {visibility: visible; opacity: 0;}
+  to {visibility: visible; opacity: 1;}
+}
+
+.fade1 {
+  animation: fadein 3s;
+  animation-fill-mode: forwards;
+}
+.fade2 {
+  animation: fadein 3s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+.fade3 {
+  animation: fadein 3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+.fade4 {
+  animation: fadein 3s;
+  animation-delay: 4.5s;
+  animation-fill-mode: forwards;
+}
+
+span {
+  color: #fc3e5b;
+}

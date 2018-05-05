@@ -7,307 +7,47 @@
   <meta name="description" content="Julia Xu Web Portfolio" />
   <meta name="keywords"  content="julia,xu,portfolio,web,development,ruby,rails,javascript,pixelart,resume" />
 
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
 
-  <link rel="stylesheet" type="text/css" href="javascript.fullPage.css" />
-  <link rel="stylesheet" type="text/css" href="main.css" />
-  <link rel="stylesheet" type="text/css" href="firstPage.css" />
-  <link rel="stylesheet" type="text/css" href="secondPage.css" />
-  <link rel="stylesheet" type="text/css" href="thirdPage.css" />
-  <link rel="stylesheet" type="text/css" href="fourthPage.css" />
-  <link rel="stylesheet" type="text/css" href="fifthPage.css" />
+  <link rel="stylesheet" type="text/css" href="pixelBackground.css" />
+  <link rel="stylesheet" type="text/css" href="animals.css" />
+  <link rel="stylesheet" type="text/css" href="content.css" />
+
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-<div id="nav">
-
-  <a class="icon-active" href="#home"><i class="fa fa-home" title="Home"></i></a>
-  <a href="#projects"><i class="fa fa-folder-open" title="Projects"></i></a>
-  <a href="#skills"><i class="fa fa-bar-chart" title="Skills"></i></a>
-  <a href="#timeline"><i class="fa fa-clock-o" title="Timeline"></i></a>
-  <a href="#contact"><i class="fa fa-paper-plane-o" title="Contact"></i></a>
-
-</div>
-
-<div id="fullpage">
-
 <!-- PAGE 1: INTRODUCTION -->
   <div class="section" id="section1">
     <div class="clouds"></div>
-    <div class="boat"></div>
     <div class="ocean"></div>
-    <div class="scroll"></div>
-    <div id="title-container">
-      <div id="title-content">
-        <p id="title-statement">HI, I'M JULIE</p>
-        <img src="assets/bunny.png" alt="pixel bunny face">
-        <p style="text-align: center;">This is where our adventure <span>begins</span>.</p>
-        <p><b>I am:</b> a <span>web developer</span> & <span>programmer</span> currently living in Seattle.</p>
-        <p><b>I build:</b> applications using <span>Ruby on Rails</span> and <span>JavaScript</span>.</p>
-        <p><b>I love:</b> games, <span>quirky</span> and beautiful design, and <span>life-oriented</span> technology.</p>
-        <p><b>I explore:</b> technologies and methods to increase <span>human happiness</span>.</p>
+    <div class="content-container">
+      <div class="fade1">
+        <h1>HI, I'M JULIE</h1>
       </div>
+      <div class="fade2">
+        <h5>This is where our adventure begins.</h5>
+      </div>
+      <div class="fade3">
+        <h3>I am: a <span>front end developer</span> and <span>programmer</span> living in Seattle.</h3>
+      </div>
+      <div class="fade4">
+        <h4>Welcome to my portfolio - click on the animals to explore.</h4>
+      </div>
+
+    </div>
+    <div class="animals">
+      <div class="bee"></div>
+      <div class="bunny"></div>
+      <div class="bird"></div>
+      <div class="fox"></div>
     </div>
   </div>
 <!-- PAGE 1 END -->
 
-<!-- PAGE 2: PROJECTS -->
-  <div class="section" id="section2">
-    <h2>PROJECTS</h2>
-
-    <div class="project-lightbox">
-      <img class="exit" src="assets/x-icon.png" alt="exit button">
-      <div class="lightbox-content" id="project0">
-        <div class="lightbox-text">
-          <h3>[ CORNMAN ]</h3>
-            <p>Cornman is a mobile game that utilizes Phaser.js, created in 7 days by a team of 3, as one of DevBootcamp's final capstones. As Cornman, the player can shoot enemies, jump on platforms, collect coins, and activate Taco Time - an extreme powerup.</p>
-            <p>To learn more about our <span>development process</span>, check out our <a href="http://cornman-api.herokuapp.com/">developer story</a>.</p>
-          <h5>CONTRIBUTIONS</h5>
-            <p>I lead feature distribution as <span>Scrum Master</span> and guided daily check-ins and standups. Coded a variety of aspects within the game: generation of popcorn when enemies are hit, defining game states, creating the instruction and button functionalities, cloud platform functionality, and in-game asset counting to name a few. Additionally, developed 95% of pixel art assets.</p>
-          <h5>WORKFLOW</h5>
-            <p>Team workflow followed the <span>Kanban system</span> and <span>agile development</span> with daily check-ins, standups, and fluid <span>feedback</span>. We utilized Slack and whiteboarding to maintain feature completion and manage responsibilities. 70% solo coding and 30% pair programming.</p>
-          <h5>TECHNOLOGIES UTILIZED</h5>
-            <p>JavaScript, <span>Phaser.js</span>, HTML5, CSS3, JQuery, AJAX, Ruby on Rails</p>
-            <p><span>Aseprite</span>, Adobe Photoshop, Adobe Illustrator</p>
-        </div>
-        <div class="lightbox-images">
-          <img style="max-height: 30%" src="assets/cornman/cornman-gameplay-1.png">
-          <img style="max-height: 30%" src="assets/cornman/cornman-gameplay-2.png">
-          <img src="assets/cornman/cornman-player.png">
-          <img style="max-height: 20%" src="assets/cornman/cornman-cow.gif">
-          <img style="max-height: 20%" src="assets/cornman/cornman-taco.png">
-        </div>
-      </div>
-      <div class="lightbox-content" id="project1">
-        <div class="lightbox-text">
-          <h3>[ COFFEEBUZZ ]</h3>
-            <p>Summary goes here.</p>
-          <h5>CONTRIBUTIONS</h5>
-            <p>Contributions goes here.</p>
-          <h5>WORKFLOW</h5>
-            <p>Workflow goes here.</p>
-          <h5>TECHNOLOGIES UTILIZED</h5>
-            <p>Technologies go here.</p>
-        </div>
-      </div>
-      <div class="lightbox-content" id="project2">
-        <div class="lightbox-text">
-          <h3>[ POKE OVERFLOW ]</h3>
-            <p>Summary goes here.</p>
-          <h5>CONTRIBUTIONS</h5>
-            <p>Contributions goes here.</p>
-          <h5>WORKFLOW</h5>
-            <p>Workflow goes here.</p>
-          <h5>TECHNOLOGIES UTILIZED</h5>
-            <p>Technologies go here.</p>
-        </div>
-        <div class="lightbox-images">
-          <img style="max-width: 100%" src="assets/pokeoverflow/pokeoverflow-1.png">
-          <img style="max-width: 100%" src="assets/pokeoverflow/pokeoverflow-2.png">
-          <img style="max-width: 100%" src="assets/pokeoverflow/pokeoverflow-3.png">
-        </div>
-      </div>
-      <div class="lightbox-content" id="project3">
-        <div class="lightbox-text">
-          <h3>[ EA RESEARCH PORTAL ]</h3>
-            <p>Summary goes here.</p>
-          <h5>CONTRIBUTIONS</h5>
-            <p>Contributions goes here.</p>
-          <h5>WORKFLOW</h5>
-            <p>Workflow goes here.</p>
-          <h5>TECHNOLOGIES UTILIZED</h5>
-            <p>Technologies go here.</p>
-        </div>
-        <div class="lightbox-images">
-          <img style="max-width: 47%" src="assets/earp/earp-1.png">
-          <img style="max-width: 47%" src="assets/earp/earp-2.png">
-          <img style="max-width: 47%" src="assets/earp/earp-3.png">
-          <img style="max-width: 47%" src="assets/earp/earp-4.png">
-        </div>
-      </div>
-    </div>
-
-
-      <div class="project-container">
-        <div class="project-thumbnail">
-          <img src="assets/corn-logo.png" alt="pixel flower icon">
-        </div>
-        <div class="project-thumbnail">
-          <img src="assets/cb-logo.png" alt="pixel flower icon">
-        </div>
-        <div class="project-thumbnail">
-          <img src="assets/poke-logo.png" alt="pixel flower icon">
-        </div>
-        <div class="project-thumbnail">
-          <img src="assets/aardvark-logo.png" alt="pixel flower icon">
-        </div>
-
-
-
-      </div>
-    <div class="earth"></div>
-  </div>
-
-
-<!-- PAGE 3: ABOUT ME & MY SKILLS -->
-  <div class="section" id="section3">
-    <h2>ABOUT ME & MY SKILLS</h2>
-    <div class="earth"></div>
-    <div class="ocean">
-      <img id="julie" src="assets/julia.gif" alt="pixel face of julia">
-    </div>
-    <div id="aboutme-container">
-      <div id="aboutme-content">
-        <p>Greetings! My name is <span>Julia Xu</span> but you can call me <span>Julie</span>.</p>
-        <p>I am an upbeat developer and artist currently residing in the mysteriously sunny Seattle!</p>
-        <p>I <span>majored in engineering</span> at the University of Washington (Materials Engineering B.S.) and then pursued <span>Dev Bootcamp</span>, a web development coding bootcamp.</p>
-        <p>I've always had an avid interest in tech applications that aim to create <span>happy and healthy individuals</span>. Thusly, I sought out training so I could couple my technical interest in engineering with my <span>passion for coding</span> in order to have a direct hand in creating projects that generate excitement.</p>
-        <p>I aim to make applications <span>come to life</span> and seek to create <span>happy communities</span>.</p>
-        <p>When I'm not coding, I love clumsily catching frisbees in the water at Madison Park, bumbling around with pixel art, or singing bad karaoke with my loved ones.</p>
-      </div>
-    </div>
-    <div id="skills-container">
-      <div id="skills-content">
-        <p>Technical:</p>
-          <ul>
-            <li><span>JavaScript</span>, Jasmine</li>
-            <li><span>Ruby on Rails</span>, ActiveRecord, Sinatra, RSpec</li>
-            <li><span>HTML5, CSS3</span></li>
-            <li>JQuery, AJAX, REST, MVC</li>
-            <li><span>SQL</span>, SQLite, PostgreSQL</li>
-            <li>Phaser.js, Node.js, React.js</li>
-            <li>Creo Parametric 3.0 (3D modeling software)</li>
-            <li><em><span>Currently Learning:</span></em> Node.js, React.js, Yelp API, MongoDB</li>
-          </ul>
-        <p>Creative:</p>
-          <ul>
-            <li>Adobe Photoshop, Adobe Illustrator</li>
-            <li>Aseprite (pixel sprite tool)</li>
-          </ul>
-        <p>A longer list of the technologies I have experience with are present on my <span>LinkedIn</span>.</p>
-      </div>
-    </div>
-  </div>
-<!-- PAGE 3 END -->
-
-<!-- PAGE 4: TIMELINE -->
-  <div class="section" id="section4">
-    <h2>TIMELINE</h2>
-    <div class="earth"></div>
-
-    <div class="timeline">
-      <div class="event-container">
-        <div class="event">
-          <img src="assets/flower.png" alt="pixel flower icon">
-        </div>
-        <div class="event">
-          <img src="assets/flower.png" alt="pixel flower icon">
-        </div>
-        <div class="event">
-          <img src="assets/flower.png" alt="pixel flower icon">
-        </div>
-        <div class="event">
-          <img src="assets/flower.png" alt="pixel flower icon">
-        </div>
-        <div class="event">
-          <img src="assets/flower.png" alt="pixel flower icon">
-        </div>
-      </div>
-
-        <div class="beginning-text">
-          <h4>What am I currently up to?</h4>
-          <p>Click on a <span>flower</span>.</p>
-        </div>
-      </div>
-      <div class="event-content" id="ec0">
-        <h4 class="event-title">CoffeeBuzz & Yelp API</h4>
-        <div class="event-img">
-          <img src="assets/cb-logo.png" alt="pixel coffee buzz logo">
-        </div>
-        <div class="event-text">
-          <p>Bzzz! I'm currently working on an app that utilizes the <span>Yelp API</span> and randomly selects a coffeeshop within a user's location given a set of reasonable specifications. Every time the user hits the "buzz" button, they'll get a <span>randomly generated</span> cafe near their location. This coffeshop is saved in their data so the user won't ever go to the same coffeeshop twice! The goal of this app is to encourage users to explore their surroundings, go outside, and try new places!</p>
-        </div>
-      </div>
-      <div class="event-content" id="ec1">
-
-        <h4 class="event-title">Cosplay Repair Station</h4>
-        <div class="event-img">
-          <img src="assets/crs-logo.png" alt="pixel cosplay repair station logo">
-        </div>
-        <div class="event-text">
-          <p>Cosplay Repair is a small non-profit-to-be <span>volunteer-driven</span> effort that participates at comic, game, and anime conventions within the Pacific Northwest to aid cosplayers and attendees with repairs. I have been tasked with building out their new site using <span>Ruby on Rails</span>. I have volunteered with Cosplay Repair for roughly 3 years now and am excited for this next development. Cosplay Repair Station's current site is available: <a href=https://cosplayrepair.wordpress.com/>here</a>.</p>
-        </div>
-      </div>
-      <div class="event-content" id="ec2">
-        <h4 class="event-title">Learning C#, Unity, & Visual Studio</h4>
-        <div class="event-img">
-          <img src="assets/csharp-logo.png" alt="pixel cosplay repair station logo">
-        </div>
-        <div class="event-text">
-          <p>I have been exploring the wonderful world of C#, Unity, and Visual Studio! It's a new world for me but very exciting! My current goal is to be able to create a short text-driven game to give myself <span>familiarity</span> and <span>experience</span> with these technologies.</p>
-        </div>      </div>
-      <div class="event-content" id="ec3">
-        <h4 class="event-title">Honing in on JavaScript & Ruby on Rails</h4>
-        <div class="event-img">
-          <img src="assets/lang-logo.png" alt="pixel versions of ror and js logos">
-        </div>
-        <div class="event-text">
-          <p>While I am exploring new projects and technologies, I'm also focusing on honing down my JavaScript and Ruby! I'm practicing my coding via HackerRank and recently made a coding simulation of <span>Conway's Game of Life</span>.</p>
-        </div>      </div>
-      <div class="event-content" id="ec4">
-        <h4 class="event-title">Looking for New Opportunities</h4>
-        <div class="event-img">
-          <img src="assets/next-logo.png" alt="pixel mountain view logo">
-        </div>
-        <div class="event-text">
-          <p>I'm on the search for <span>new opportunities</span>! I am an eager developer that's ready to prove my skills and contribute to <span>meaningful projects</span> and <span>challenging work</span>. In my workflow, I like planning down features by using <span>sketches and drawings</span>, I am eager to receive <span>feedback</span> and see how I can improve, and I aim to consistently maintain a <span>growth mindset</span> and be a contributive and <span>empathetic</span> team member.
-        </div>
-      </div>
-    </div>
-
-<!-- PAGE 5: CONTACT -->
-  <div class="section" id="section5">
-    <h2>CONTACT</h2>
-    <div class="clouds"></div>
-    <div class="wave"></div>
-    <div class="ocean"></div>
-    <div class="scroll"></div>
-    <div id="contact-container"></div>
-      <div id="contact-content">
-        <p id="contact-statement">SAY HELLO</p>
-
-        <img src="assets/bunny.png" alt="pixel flower icon">
-        <p style="text-align: center;">This is where our adventure <span>ends</span>.</p>
-        <p>Thank you for checking out my portfolio!</p>
-        <p>Maybe there are more adventures for the two of us on the horizon? I would love to meet and say hello!</p>
-        <p><a href = "assets/julia_xu_resume.pdf?iframe=true">Resume</a></p>
-        <a href="mailto:juliamxu@gmail.com?Subject=Hello" target="_top"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
-        <a href="https://www.linkedin.com/in/julia-xu/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-        <a href="https://github.com/julia-xu"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-    </div>
-  </div>
-<!-- PAGE 5 END -->
-
-  </div>
-
-</div>
-
-<script type="text/javascript" src="javascript.fullPage.js"></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="main.js"></script>
-<script type="text/javascript">
-  fullpage.initialize('#fullpage', {
-    anchors: ['home', 'projects', 'skills', 'timeline', 'contact'],
-    menu: '#menu',
-    css3: true
-  });
-</script>
 
 </body>
 </html>

@@ -1,0 +1,55 @@
+
+.animals {
+  position: absolute;
+  justify-content: space-evenly;
+  display: flex;
+  width: 100%;
+  height: 130px;
+  bottom: 120px;
+  z-index: 4;
+}
+
+.bee {
+  width: 85px;
+  height: 64px;
+  background: url(assets/animals/bee.png);
+  background-size: 98%;
+}
+.bee:hover {
+  cursor: pointer;
+  background: url(assets/animals/bee.gif);
+  background-size: 98%;
+}
+.bunny {
+  width: 85px;
+  height: 64px;
+  background: url(assets/animals/whitebunny.png);
+  background-size: 98%;
+}
+.bunny:hover {
+  cursor: pointer;
+  background: url(assets/animals/whitebunny.gif);
+  background-size: 98%;
+}
+.bird {
+  width: 85px;
+  height: 64px;
+  background: url(assets/animals/bluebird.png);
+  background-size: 98%;
+}
+.bird:hover {
+  cursor: pointer;
+  background: url(assets/animals/bluebird.gif);
+  background-size: 98%;
+}
+.fox {
+  width: 85px;
+  height: 64px;
+  background: url(assets/animals/redfox.png);
+  background-size: 98%;
+}
+.fox:hover {
+  cursor: pointer;
+  background: url(assets/animals/redfox.gif);
+  background-size: 98%;
+}
