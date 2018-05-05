@@ -1,62 +1,34 @@
+<html ng-app="jxPortfolioApp">
+
 <head>
+  <title>Julia Xu: Developer Portfolio</title>
+
   <meta charset="UTF-8"/>
-
-  <title>Julia Xu</title>
-
   <meta name="author" content="Julia Xu" />
-  <meta name="description" content="Julia Xu Web Portfolio" />
-  <meta name="keywords"  content="julia,xu,portfolio,web,development,ruby,rails,javascript,pixelart,resume" />
+  <meta name="description" content="Julia Xu Developer Portfolio" />
+  <meta name="keywords"  content="julia,xu,portfolio,web,development,developer,ruby,rails,javascript,pixelart,resume,programming,softwaredeveloper" />
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
 
-  <link rel="stylesheet" type="text/css" href="pixelBackground.css" />
-  <link rel="stylesheet" type="text/css" href="animals.css" />
-  <link rel="stylesheet" type="text/css" href="content.css" />
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous"></head>
 
-<body>
-<div="container">
+  <link rel="stylesheet" type="text/css" href="pixelBackground.css" />
+  <link rel="stylesheet" type="text/css" href="animals.css" />
+  <link rel="stylesheet" type="text/css" href="content.css" />
+</head>
 
+<body>
     <div class="clouds"></div>
     <div class="ocean"></div>
-    <div class="content-box">
-      <div class="content-info">
-        <div class="animated fadeInDown">
-          <h1>HI, I'M <span>JULIE</span></h1>
-        </div>
-        <div class="animated fadeInDown fadeInDelay1">
-          <h4>This is where our adventure <span>begins</span>.</h4>
-        </div>
-        <div class="animated fadeInDown fadeInDelay2">
-          <h3>I am an <span>enthusiastic</span> and <span>user-focused</span> junior software developer currently residing in Seattle.</h3>
-        </div>
-        <div class="animated fadeInDown fadeInDelay3">
-          <i class="fab fa-github"></i>
-          <i class="fab fa-linkedin"></i>
-          <i class="far fa-envelope"></i>
+    <div ng-view></div>
 
-
-
-        </div>
-        <div class="animated fadeInDown fadeInDelay4">
-          <h5>Please click on the animals to explore.</h5>
-        </div>
-      </div>
-
-      <div class="animals animated fadeInUp fadeInDelay5">
-        <a href="#aboutme"><img src="assets/animals/bee.gif"></a>
-        <a href="#skills"><img src="assets/animals/whitebunny.gif"></a>
-        <a href="#workexperience"><img src="assets/animals/bluebird.gif"></a>
-        <a href="#projects"><img src="assets/animals/redfox.gif"></a>
-      </div>
-
-    </div>
-  </div>
-
-<script src="script.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script> -->
+  <script src="routes.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
