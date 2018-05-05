@@ -3,40 +3,46 @@ body {
   font-size: 18px;
 }
 
-.content-container {
-  z-index: 5;
-  width: 100%;
-  height: 40%;
-  position: absolute;
-  text-align: center;
-  visibility: hidden;
-}
-
-@keyframes fadein {
-  from {visibility: visible; opacity: 0;}
-  to {visibility: visible; opacity: 1;}
-}
-
-.fade1 {
-  animation: fadein 3s;
-  animation-fill-mode: forwards;
-}
-.fade2 {
-  animation: fadein 3s;
-  animation-delay: 1.5s;
-  animation-fill-mode: forwards;
-}
-.fade3 {
-  animation: fadein 3s;
-  animation-delay: 3s;
-  animation-fill-mode: forwards;
-}
-.fade4 {
-  animation: fadein 3s;
-  animation-delay: 4.5s;
-  animation-fill-mode: forwards;
-}
-
 span {
   color: #fc3e5b;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+.fadeInDelay1 {
+  animation-delay: 1.5s;
+}
+
+.fadeInDelay2 {
+  animation-delay: 3s;
+}
+
+.fadeInDelay3 {
+  animation-delay: 4.5s;
+}
+
+.fadeInDelay4 {
+  animation-delay: 6s;
+}
+
+.fadeInDelay5 {
+  animation-delay: 7.5s;
+}
+
+.content-box {
+  position: absolute;
+  top: 20vh;
+  width: 100%;
+  height: 60vh;
+
+  display: flex;
+  align-items: center;
+}
+
+.content-info {
+  height: 100%;
+  margin: 0 auto;
+  margin-left: 50px;
 }

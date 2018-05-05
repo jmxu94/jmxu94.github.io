@@ -3,53 +3,19 @@
   position: absolute;
   justify-content: space-evenly;
   display: flex;
-  width: 100%;
+  right: 0;
+  width: 75%;
   height: 130px;
-  bottom: 120px;
-  z-index: 4;
+  top: 35vh;
 }
 
-.bee {
-  width: 85px;
-  height: 64px;
-  background: url(assets/animals/bee.png);
-  background-size: 98%;
+img {
+  opacity: 0.8;
+  width: 100px;
 }
-.bee:hover {
-  cursor: pointer;
-  background: url(assets/animals/bee.gif);
-  background-size: 98%;
-}
-.bunny {
-  width: 85px;
-  height: 64px;
-  background: url(assets/animals/whitebunny.png);
-  background-size: 98%;
-}
-.bunny:hover {
-  cursor: pointer;
-  background: url(assets/animals/whitebunny.gif);
-  background-size: 98%;
-}
-.bird {
-  width: 85px;
-  height: 64px;
-  background: url(assets/animals/bluebird.png);
-  background-size: 98%;
-}
-.bird:hover {
-  cursor: pointer;
-  background: url(assets/animals/bluebird.gif);
-  background-size: 98%;
-}
-.fox {
-  width: 85px;
-  height: 64px;
-  background: url(assets/animals/redfox.png);
-  background-size: 98%;
-}
-.fox:hover {
-  cursor: pointer;
-  background: url(assets/animals/redfox.gif);
-  background-size: 98%;
+
+img:hover {
+  cursor:pointer;
+  opacity: 1;
+  filter: drop-shadow(5px 5px #dbf9ff);
 }
