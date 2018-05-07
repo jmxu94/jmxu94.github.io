@@ -14,8 +14,18 @@ jxPortfolioApp.config(function($routeProvider) {
       templateUrl : 'pages/about.html',
     })
 
-    // route for the contact page
+    // route for the experience page
+    .when('/experience', {
+      templateUrl : 'pages/experience.html',
+    })
+
+    // route for the skills page
     .when('/skills', {
       templateUrl : 'pages/skills.html',
+    })
+
+    // route for the projects page
+    .when('/projects', {
+      templateUrl : 'pages/projects.html',
     })
 });

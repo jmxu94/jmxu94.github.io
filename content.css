@@ -11,48 +11,61 @@ h2 {
   font-size: 22px;
 }
 
-.fadeInDelay1 {
-  animation-delay: 1.5s;
+.aniDelay1 {
+  animation-delay: 1s;
 }
 
+.aniDelay2 {
+  animation-delay: 2s;
+}
+
+/*
 .fadeInDelay2 {
   animation-delay: 3s;
 }
-
 .fadeInDelay3 {
   animation-delay: 4.5s;
 }
-
 .fadeInDelay4 {
   animation-delay: 6s;
 }
-
 .fadeInDelay5 {
   animation-delay: 7.5s;
+}
+.fadeInDelay6 {
+  animation-delay: 9s;
+}
+.fadeInDelay7 {
+  animation-delay: 10.5s;
+}
+.fadeInDelay8 {
+  animation-delay: 12s;
+} */
+
+.fab, .far {
+  font-size: 30px;
+  margin: 10px;
+  color: lightgrey;
 }
 
 .container {
   position: absolute;
-  z-index: 500;
-  background-color: rgba(255, 255, 255, 0.7);
-  /* border: 1px solid red; */
-  top: 15%;
   width: 100%;
   height: 70%;
+  top: 15%;
 }
 
-.content-box {
-  position: absolute;
-  top: 20vh;
-  width: 100%;
-  height: 60vh;
-
+.row {
   display: flex;
-  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
 }
 
-.content-info {
-  height: 100%;
-  margin: 0 auto;
-  margin-left: 50px;
+.card {
+  border: 1px solid gold;
+  margin: 15px;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
 }

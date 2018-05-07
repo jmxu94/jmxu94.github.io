@@ -21,7 +21,7 @@ html, body {
   background-position:  center top;
   background-size: 120%;
 
-  animation: windy 40s linear infinite;
+  /* animation: windy 40s linear infinite; */
  }
 
 @keyframes windy {
@@ -41,7 +41,7 @@ html, body {
   background-position:  center bottom;
   background-size: 120%;
 
-  animation: waves 10s ease-in-out alternate infinite;
+  /* animation: waves 10s ease-in-out alternate infinite; */
  }
 
 @keyframes waves {
