@@ -12,6 +12,13 @@ h1 {
   filter: drop-shadow(3px 3px #c0d5ff);
 }
 
+h2 {
+  font-size: 50px;
+  filter: drop-shadow(3px 3px #c0d5ff);
+  background-color: white;
+  padding: 15px;
+}
+
 
 .blue {
   color: #0018be
