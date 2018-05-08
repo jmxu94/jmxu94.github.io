@@ -74,3 +74,54 @@ h2 {
 .quote-detail p {
   margin: 0;
 }
+
+.about .card {
+  font-family: 'Open Sans', sans-serif;
+  width: 18rem;
+  height: 22rem;
+  background-color: transparent;
+  border: none;
+}
+
+.about .card .fas {
+  font-size: 5em;
+  color: #fc3e5b;
+  filter: drop-shadow(5px 5px #c0d5ff);
+  /* margin-top: 15px; */
+}
+
+.red-bold{
+  color: #fc3e5b;
+  /* font-weight: bold; */
+  /* font-stretch: expanded; */
+  margin: 30px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.speech-bubble {
+	position: absolute;
+  bottom: 250px;
+	background: white;
+	border-radius: .4em;
+  visibility: hidden;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 0.906em solid transparent;
+	border-top-color: white;
+	border-bottom: 0;
+	margin-left: -0.906em;
+	margin-bottom: -0.906em;
+}
+
+.element {
+position: absolute;
+width: 100%;
+bottom: 0;
+}

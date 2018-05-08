@@ -29,3 +29,12 @@ jxPortfolioApp.config(function($routeProvider) {
       templateUrl : 'pages/projects.html',
     })
 });
+
+$(document).ready(function(){
+  $('.element').on('mouseover', function() {
+    $(this).addClass('animated pulse');
+    $(this).prev().css("visibility","visible");
+    $(this).prev().addClass('animated tada');
+  });
+
+});
