@@ -7,8 +7,21 @@ span {
   color: #fc3e5b;
 }
 
-h2 {
-  font-size: 22px;
+h1 {
+  font-size: 80px;
+  filter: drop-shadow(3px 3px #c0d5ff);
+}
+
+
+.blue {
+  color: #0018be
+}
+.orange {
+  color: #ffa500
+}
+
+.scroll {
+  filter: drop-shadow(3px 3px #c0d5ff);
 }
 
 .aniDelay1 {
@@ -19,53 +32,38 @@ h2 {
   animation-delay: 2s;
 }
 
-/*
-.fadeInDelay2 {
-  animation-delay: 3s;
-}
-.fadeInDelay3 {
-  animation-delay: 4.5s;
-}
-.fadeInDelay4 {
-  animation-delay: 6s;
-}
-.fadeInDelay5 {
-  animation-delay: 7.5s;
-}
-.fadeInDelay6 {
-  animation-delay: 9s;
-}
-.fadeInDelay7 {
-  animation-delay: 10.5s;
-}
-.fadeInDelay8 {
-  animation-delay: 12s;
-} */
-
 .fab, .far {
   font-size: 30px;
   margin: 10px;
   color: lightgrey;
 }
 
-.container {
-  position: absolute;
-  width: 100%;
-  height: 70%;
-  top: 15%;
-}
-
 .row {
   display: flex;
+  align-items: center;
   text-align: center;
   justify-content: space-evenly;
+
+  margin: 0;
+  width: 100%;
 }
 
-.card {
-  border: 1px solid gold;
-  margin: 15px;
-  width: 200px;
-  height: 300px;
-  background-color: white;
-  border-radius: 10px;
+.quote {
+  font-family: 'Times New Roman', Times, serif;
+  height: 210px;
+}
+
+.quote-detail {
+  position: absolute;
+  right: 30px;
+  bottom: 15px;
+
+  font-family: 'PT Sans', sans-serif;
+  font-size: 0.8em;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+.quote-detail p {
+  margin: 0;
 }
