@@ -1,114 +1,50 @@
-.section {
-  position: relative;
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: #dbf9ff;
+}
+
+#scene {
   height: 100%;
   width: 100%;
-  z-index: 0;
-
-  background: linear-gradient(#e1faff, white);
 }
 
 .clouds {
   position: absolute;
   height: 100%;
   width: 100%;
-  z-index: 1;
 
-  background: url(assets/clouds-1.png), 
-              url(assets/clouds-2.png),
-              url(assets/clouds-3.png),
-              linear-gradient(white, white);
-
+  background: url(assets/background/clouds-1.png),
+              url(assets/background/clouds-2.png),
+              url(assets/background/clouds-3.png);
   background-repeat: repeat-x;
+  background-position:  center top;
+  background-size: 120%;
 
-  background-position:  center top 20px,
-                        center top 20px,
-                        center top 20px,
-                        center top 300px;
-
-  animation: cloudScroll 150s linear infinite; 
+  /* animation: windy 40s linear infinite; */
  }
 
-@keyframes cloudScroll {
-  from {background-position-x: 0, 0, 0}  
-  to {background-position-x: 800%, 400%, 200%}  
+@keyframes windy {
+  from {background-position-x: 0, 0, 0}
+  to {background-position-x: -450%, -300%, -150%}
 }
 
 .ocean {
   position: absolute;
   height: 100%;
   width: 100%;
-  z-index: 2;
 
-  background: url(assets/ocean-1.png),
-              url(assets/ship.png),
-              url(assets/ocean-2.png),
-              url(assets/ocean-3.png);
+  background: url(assets/background/ocean-1.png),
+              url(assets/background/ocean-2.png),
+              url(assets/background/earth.png);
+  background-repeat:  repeat-x;
+  background-position:  center bottom;
+  background-size: 120%;
 
-  background-repeat:  repeat-x,
-                      no-repeat,
-                      repeat-x,
-                      repeat-x;
-
-  background-position:  center bottom,
-                        right bottom 150px,
-                        center bottom 70px,
-                        center bottom 90px;
-
-  animation: oceanScroll 8s ease-in-out alternate infinite; 
+  /* animation: waves 10s ease-in-out alternate infinite; */
  }
 
-@keyframes oceanScroll {
-  from {background-position-x: 0, 85%, 0, 0;}  
-  to {background-position-x: -50%, 95%, -35%, -20%;}  
-}
-
-.scroll {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: 3;
-
-  background: url(assets/scroll-icon.gif);
-
-  background-repeat: no-repeat;
-
-  background-position: center bottom 30px;
-}
-
-.title {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: 3;
-
-  background: url(assets/front-page-title.png);
-
-  background-repeat: no-repeat;
-
-  background-position: left 50px bottom 365px;
-}
-
-.earth {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-
-  background: url(assets/ocean-1.png),
-              url(assets/ocean-2.png),
-              url(assets/earth.png);
-
-  background-repeat:  repeat-x,
-                      repeat-x,
-                      repeat-x;
-
-  background-position:  center bottom -100px,
-                        center bottom -70px,
-                        center bottom 50px;
-
-  animation: earthScroll 8s ease-in-out alternate infinite; 
- }
-
-@keyframes earthScroll {
-  from {background-position-x: 0, 0, 0;}  
-  to {background-position-x: 20%, 10%, -2%;}  
+@keyframes waves {
+  from {background-position-x: 0%, 0%, 0}
+  to {background-position-x: -80%, 60%, 0}
 }

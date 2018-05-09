@@ -1,0 +1,160 @@
+body {
+  font-family: 'Roboto', serif;
+  font-size: 18px;
+}
+
+span {
+  color: #fc3e5b;
+}
+
+h1 {
+  font-size: 80px;
+  filter: drop-shadow(3px 3px #c0d5ff);
+}
+
+h2 {
+  font-size: 50px;
+  filter: drop-shadow(3px 3px #c0d5ff);
+  background-color: white;
+  padding: 15px;
+}
+
+
+.blue {
+  color: #0018be
+}
+.orange {
+  color: #ffa500
+}
+
+.purple {
+  color: purple;
+}
+
+.scroll {
+  filter: drop-shadow(3px 3px #c0d5ff);
+}
+
+.aniDelay1 {
+  animation-delay: 1s;
+}
+
+.aniDelay2 {
+  animation-delay: 2s;
+}
+
+.fab, .far {
+  font-size: 30px;
+  margin: 10px;
+  color: lightgrey;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+
+  margin: 0;
+  width: 100%;
+}
+
+.quote {
+  font-family: 'Times New Roman', Times, serif;
+  height: 210px;
+}
+
+.quote-detail {
+  position: absolute;
+  right: 30px;
+  bottom: 15px;
+
+  font-family: 'PT Sans', sans-serif;
+  font-size: 0.8em;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+.quote-detail p {
+  margin: 0;
+}
+
+.about .card {
+  font-family: 'Open Sans', sans-serif;
+  width: 18rem;
+  height: 22rem;
+  background-color: transparent;
+  border: none;
+}
+
+.about .card .fas {
+  font-size: 5em;
+  color: #fc3e5b;
+  filter: drop-shadow(5px 5px #c0d5ff);
+}
+
+.red-bold{
+  color: #fc3e5b;
+  margin: 30px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.speech-bubble {
+	position: absolute;
+  bottom: 250px;
+	background: white;
+	border-radius: .4em;
+  visibility: hidden;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 0.906em solid transparent;
+	border-top-color: white;
+	border-bottom: 0;
+	margin-left: -0.906em;
+	margin-bottom: -0.906em;
+}
+
+.element {
+position: absolute;
+width: 100%;
+bottom: 0;
+}
+
+.deep-ocean {
+  background-image: linear-gradient(to bottom,
+      #dbf9ff 100vh,
+      #0066cc 100%
+  );
+  background-position: 0px 0px;
+  background-repeat:   no-repeat;
+}
+
+.experience {
+  font-family: 'Do Hyeon', sans-serif;
+
+}
+
+.experience p {
+  text-align: left;
+}
+
+.skills {
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.skills li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.college p {
+  margin: 0;
+  color: purple;
+}
