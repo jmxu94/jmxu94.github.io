@@ -27,6 +27,10 @@ h2 {
   color: #ffa500
 }
 
+.purple {
+  color: purple;
+}
+
 .scroll {
   filter: drop-shadow(3px 3px #c0d5ff);
 }
@@ -87,13 +91,10 @@ h2 {
   font-size: 5em;
   color: #fc3e5b;
   filter: drop-shadow(5px 5px #c0d5ff);
-  /* margin-top: 15px; */
 }
 
 .red-bold{
   color: #fc3e5b;
-  /* font-weight: bold; */
-  /* font-stretch: expanded; */
   margin: 30px;
   font-family: 'Do Hyeon', sans-serif;
 }
@@ -124,4 +125,36 @@ h2 {
 position: absolute;
 width: 100%;
 bottom: 0;
+}
+
+.deep-ocean {
+  background-image: linear-gradient(to bottom,
+      #dbf9ff 100vh,
+      #0066cc 100%
+  );
+  background-position: 0px 0px;
+  background-repeat:   no-repeat;
+}
+
+.experience {
+  font-family: 'Do Hyeon', sans-serif;
+
+}
+
+.experience p {
+  text-align: left;
+}
+
+.skills {
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.skills li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.college p {
+  margin: 0;
+  color: purple;
 }

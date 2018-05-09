@@ -31,10 +31,24 @@ jxPortfolioApp.config(function($routeProvider) {
 });
 
 $(document).ready(function(){
-  $('.element').on('mouseover', function() {
-    $(this).addClass('animated pulse');
-    $(this).prev().css("visibility","visible");
-    $(this).prev().addClass('animated tada');
-  });
+  // $('.element').on('mouseover', function() {
+  //   $(this).addClass('animated pulse');
+  //   $(this).prev().css("visibility","visible");
+  //   $(this).prev().addClass('animated tada');
+  //   $(this).prev().delay(5000).fadeOut('slow');
+  // });
+
+  $('.element').hover(
+     function(){
+       $(this).addClass('animated pulse');
+       $(this).prev().css("visibility", "visible");
+       $(this).prev().addClass('animated tada');
+     },
+     function(){
+       $(this).removeClass('animated pulse');
+       // $(this).prev().delay(5000).css("visibility", "hidden").removeClass('animated tada');
+     }
+)
+
 
 });
