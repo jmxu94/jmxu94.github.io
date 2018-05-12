@@ -1,3 +1,16 @@
+.aniDelay1 {
+  animation-delay: 1s;
+}
+.aniDelay2 {
+  animation-delay: 2s;
+}
+.aniDelay3 {
+  animation-delay: 3s;
+}
+.aniDelay4 {
+  animation-delay: 4s;
+}
+
 .floating {
     animation-name: floating;
     animation-duration: 6s;
@@ -8,4 +21,14 @@
     from { transform: translate(0,  0px); }
     65%  { transform: translate(0, 15px); }
     to   { transform: translate(0,  0px); }
+}
+
+@keyframes windy {
+  from {background-position-x: 0, 0, 0}
+  to {background-position-x: -450%, -300%, -150%}
+}
+
+@keyframes waves {
+  from {background-position-x: 0%, 0%, 0}
+  to {background-position-x: -80%, 60%, 0}
 }
