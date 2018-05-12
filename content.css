@@ -19,14 +19,18 @@ h2 {
   padding: 15px;
 }
 
-
+.red {
+  color: #fc3e5b;
+}
 .blue {
-  color: #0018be
+  color: #0018be;
 }
 .orange {
-  color: #ffa500
+  color: #ffa500;
 }
-
+.green {
+  color: #336600;
+}
 .purple {
   color: purple;
 }
@@ -38,9 +42,14 @@ h2 {
 .aniDelay1 {
   animation-delay: 1s;
 }
-
 .aniDelay2 {
   animation-delay: 2s;
+}
+.aniDelay3 {
+  animation-delay: 3s;
+}
+.aniDelay4 {
+  animation-delay: 4s;
 }
 
 .fab, .far {
@@ -59,25 +68,7 @@ h2 {
   width: 100%;
 }
 
-.quote {
-  font-family: 'Times New Roman', Times, serif;
-  height: 210px;
-}
 
-.quote-detail {
-  position: absolute;
-  right: 30px;
-  bottom: 15px;
-
-  font-family: 'PT Sans', sans-serif;
-  font-size: 0.8em;
-  text-align: right;
-  vertical-align: bottom;
-}
-
-.quote-detail p {
-  margin: 0;
-}
 
 .about .card {
   font-family: 'Open Sans', sans-serif;
@@ -157,4 +148,47 @@ bottom: 0;
 .college p {
   margin: 0;
   color: purple;
+}
+
+.jumbotron {
+  background-color: white;
+}
+
+/* EXPERIENCE */
+.experience {
+  height: 80vh;
+}
+.experience .jumbotron {
+  height: 350px;
+}
+.experience p {
+  font-size: 18px;
+}
+.experience i {
+  font-size: 80px;
+}
+
+/* REFERENCES */
+.references {
+  height: 70vh;
+}
+.references .card {
+  width: 18rem;
+}
+.quote {
+  font-family: 'Times New Roman', Times, serif;
+  height: 210px;
+}
+.quote-detail {
+  position: absolute;
+  right: 30px;
+  bottom: 15px;
+
+  font-family: 'PT Sans', sans-serif;
+  font-size: 0.8em;
+  text-align: right;
+  vertical-align: bottom;
+}
+.quote-detail p {
+  margin: 0;
 }
