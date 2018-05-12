@@ -19,6 +19,7 @@ h2 {
   padding: 15px;
 }
 
+/* COLORS */
 .red {
   color: #fc3e5b;
 }
@@ -28,24 +29,6 @@ h2 {
 .orange {
   color: #ffa500;
 }
-.green {
-  color: #336600;
-}
-.purple {
-  color: purple;
-}
-
-.scroll {
-  filter: drop-shadow(3px 3px #c0d5ff);
-}
-
-
-
-/* .fab, .far {
-  font-size: 30px;
-  margin: 10px;
-  color: lightgrey;
-} */
 
 .row {
   display: flex;
@@ -57,8 +40,21 @@ h2 {
   width: 100%;
 }
 
+.jumbotron {
+  background-color: white;
+}
 
-
+/* ABOUT */
+.about {
+  height: 120vh;
+}
+.about h4 {
+  margin: 30px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.about p {
+  font-family: 'PT Sans', sans-serif;
+}
 .about .card {
   font-family: 'Open Sans', sans-serif;
   width: 18rem;
@@ -66,27 +62,23 @@ h2 {
   background-color: transparent;
   border: none;
 }
-
 .about .card .fas {
   font-size: 5em;
   color: #fc3e5b;
   filter: drop-shadow(5px 5px #c0d5ff);
 }
-
-.red-bold{
-  color: #fc3e5b;
-  margin: 30px;
-  font-family: 'Do Hyeon', sans-serif;
+.element {
+position: absolute;
+width: 100%;
+bottom: 0;
 }
-
 .speech-bubble {
 	position: absolute;
   bottom: 250px;
 	background: white;
 	border-radius: .4em;
-  visibility: hidden;
+  padding: 15px;
 }
-
 .speech-bubble:after {
 	content: '';
 	position: absolute;
@@ -99,29 +91,6 @@ h2 {
 	border-bottom: 0;
 	margin-left: -0.906em;
 	margin-bottom: -0.906em;
-}
-
-.element {
-position: absolute;
-width: 100%;
-bottom: 0;
-}
-
-.deep-ocean {
-  background-image: linear-gradient(to bottom,
-      #dbf9ff 100vh,
-      #0066cc 100%
-  );
-  background-position: 0px 0px;
-  background-repeat:   no-repeat;
-}
-.college p {
-  margin: 0;
-  color: purple;
-}
-
-.jumbotron {
-  background-color: white;
 }
 
 /* SKILLS */
