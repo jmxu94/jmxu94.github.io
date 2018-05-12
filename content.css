@@ -127,7 +127,8 @@ bottom: 0;
   height: 80vh;
 }
 .experience .jumbotron {
-  height: 350px;
+  height: 320px;
+  padding-top: 30px;
 }
 .experience p {
   text-align: left;
