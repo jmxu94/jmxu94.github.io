@@ -30,6 +30,10 @@ h2 {
   color: #ffa500;
 }
 
+a:hover {
+  color: #fc3e5b;
+}
+
 .row {
   display: flex;
   align-items: center;
@@ -138,6 +142,26 @@ bottom: 0;
   font-size: 80px;
 }
 
+/* PROJECTS */
+.projects {
+  font-family: 'Do Hyeon', sans-serif;
+}
+.projects .jumbotron {
+  background-color: transparent;
+  color: white;
+}
+.projects h3 {
+  background-color: white;
+  width: 100%;
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+.projects p {
+  font-family: 'PT Sans', sans-serif;
+}
+
 /* EDUCATION */
 .education {
   font-family: 'Do Hyeon', sans-serif;
@@ -145,6 +169,11 @@ bottom: 0;
 }
 .education i {
   font-size: 80px;
+}
+
+/* NOW */
+.now {
+  height: 50vh;
 }
 
 /* CONTACT */
