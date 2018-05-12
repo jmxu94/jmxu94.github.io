@@ -39,24 +39,13 @@ h2 {
   filter: drop-shadow(3px 3px #c0d5ff);
 }
 
-.aniDelay1 {
-  animation-delay: 1s;
-}
-.aniDelay2 {
-  animation-delay: 2s;
-}
-.aniDelay3 {
-  animation-delay: 3s;
-}
-.aniDelay4 {
-  animation-delay: 4s;
-}
 
-.fab, .far {
+
+/* .fab, .far {
   font-size: 30px;
   margin: 10px;
   color: lightgrey;
-}
+} */
 
 .row {
   display: flex;
@@ -126,25 +115,6 @@ bottom: 0;
   background-position: 0px 0px;
   background-repeat:   no-repeat;
 }
-
-.experience {
-  font-family: 'Do Hyeon', sans-serif;
-
-}
-
-.experience p {
-  text-align: left;
-}
-
-.skills {
-  font-family: 'Do Hyeon', sans-serif;
-}
-
-.skills li {
-    list-style-type: none;
-    text-align: left;
-}
-
 .college p {
   margin: 0;
   color: purple;
@@ -154,18 +124,82 @@ bottom: 0;
   background-color: white;
 }
 
+/* SKILLS */
+.skills {
+  height: 80vh;
+  font-family: 'PT Sans', sans-serif;
+}
+.skills h3 {
+  font-family: 'Do Hyeon', sans-serif;
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+.skills .jumbotron {
+  background-color: transparent;
+}
+.skills table {
+  width: 100%;
+}
+.skills td {
+  color: white;
+  font-size: 30px;
+  line-height: 50px;
+  filter: drop-shadow(3px 3px #c0d5ff);
+}
+.skills table .fish {
+  text-align: right;
+}
+
 /* EXPERIENCE */
 .experience {
+  font-family: 'Do Hyeon', sans-serif;
   height: 80vh;
 }
 .experience .jumbotron {
   height: 350px;
 }
 .experience p {
+  text-align: left;
   font-size: 18px;
 }
 .experience i {
   font-size: 80px;
+}
+
+/* EDUCATION */
+.education {
+  font-family: 'Do Hyeon', sans-serif;
+  height: 120vh;
+}
+.education i {
+  font-size: 80px;
+}
+
+/* CONTACT */
+.contact {
+  height: 140vh;
+}
+.contact p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 0.8em;
+}
+.contact img {
+  opacity: 1;
+  width: 300px;
+}
+.contact img:hover {
+  pointer-events: none;
+  filter: none;
+}
+.contact i {
+  font-size: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.contact i:hover {
+  color: #fc3e5b;
 }
 
 /* REFERENCES */
