@@ -62,7 +62,7 @@ h2 {
   background-color: transparent;
   border: none;
 }
-.about .card .fas {
+.about .card i {
   font-size: 5em;
   color: #fc3e5b;
   filter: drop-shadow(5px 5px #c0d5ff);
@@ -178,6 +178,7 @@ bottom: 0;
 }
 .references .card {
   width: 18rem;
+  filter: drop-shadow(10px 10px #ffa500);
 }
 .quote {
   font-family: 'Times New Roman', Times, serif;
