@@ -116,15 +116,6 @@ bottom: 0;
   background-repeat:   no-repeat;
 }
 
-.experience {
-  font-family: 'Do Hyeon', sans-serif;
-
-}
-
-.experience p {
-  text-align: left;
-}
-
 .skills {
   font-family: 'Do Hyeon', sans-serif;
 }
@@ -145,15 +136,26 @@ bottom: 0;
 
 /* EXPERIENCE */
 .experience {
+  font-family: 'Do Hyeon', sans-serif;
   height: 80vh;
 }
 .experience .jumbotron {
   height: 350px;
 }
 .experience p {
+  text-align: left;
   font-size: 18px;
 }
 .experience i {
+  font-size: 80px;
+}
+
+/* EDUCATION */
+.education {
+  font-family: 'Do Hyeon', sans-serif;
+  height: 120vh;
+}
+.education i {
   font-size: 80px;
 }
 
