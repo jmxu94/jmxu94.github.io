@@ -159,11 +159,11 @@ bottom: 0;
   height: 520px;
 }
 .projects h3 {
-  background-color: white;
   width: 100%;
   padding: 15px;
   margin-bottom: 30px;
   background-color: white;
+  filter: drop-shadow(5px 5px #0018be);
 }
 .projects p {
   font-family: 'PT Sans', sans-serif;
@@ -231,6 +231,7 @@ bottom: 0;
 .references .card {
   width: 18rem;
   filter: drop-shadow(10px 10px #ffa500);
+  border: none;
 }
 .quote {
   font-family: 'Times New Roman', Times, serif;

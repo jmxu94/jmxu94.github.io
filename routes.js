@@ -1,6 +1,7 @@
  var jxPortfolioApp = angular.module('jxPortfolioApp', ['ngRoute']);
 
 // configure our routes
+// these are not used but kept for potential future use
 jxPortfolioApp.config(function($routeProvider) {
   $routeProvider
 
