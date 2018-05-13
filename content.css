@@ -28,7 +28,7 @@ h2 {
   color: #fc3e5b;
 }
 .blue {
-  color: #0018be;
+  color: #157efb;
 }
 .orange {
   color: #ffa500;
@@ -50,6 +50,11 @@ a:hover {
 
 .jumbotron {
   background-color: white;
+  border-radius: 0px;
+}
+
+.card {
+  border-radius: 0px;
 }
 
 /* ABOUT */
@@ -129,6 +134,9 @@ bottom: 0;
 .skills table .fish {
   text-align: right;
 }
+.skills table .fish span {
+    opacity: 0.3;
+}
 
 /* EXPERIENCE */
 .experience {
@@ -164,7 +172,7 @@ bottom: 0;
   padding: 15px;
   margin-bottom: 30px;
   background-color: white;
-  filter: drop-shadow(5px 5px #0018be);
+  filter: drop-shadow(5px 5px #157efb);
 }
 .projects p {
   font-family: 'PT Sans', sans-serif;
@@ -193,7 +201,7 @@ bottom: 0;
   font-family: 'PT Sans', sans-serif;
 }
 .education .jumbotron {
-  filter: drop-shadow(10px 10px #c0d5ff);
+  filter: drop-shadow(10px 10px #157efb);
 }
 
 /* NOW */
