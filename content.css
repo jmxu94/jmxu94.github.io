@@ -144,11 +144,13 @@ bottom: 0;
 
 /* PROJECTS */
 .projects {
+  height: 85vh;
   font-family: 'Do Hyeon', sans-serif;
 }
 .projects .jumbotron {
   background-color: transparent;
   color: white;
+  height: 650px;
 }
 .projects h3 {
   background-color: white;
@@ -160,6 +162,15 @@ bottom: 0;
 }
 .projects p {
   font-family: 'PT Sans', sans-serif;
+}
+.note {
+  width: 100%;
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.note a:hover {
+  color: #0018be;
 }
 
 /* EDUCATION */
