@@ -143,6 +143,7 @@ bottom: 0;
 .experience p {
   text-align: left;
   font-size: 18px;
+  font-family: 'PT Sans', sans-serif;
 }
 .experience i {
   font-size: 80px;
@@ -187,6 +188,9 @@ bottom: 0;
 }
 .education i {
   font-size: 80px;
+}
+.education p {
+  font-family: 'PT Sans', sans-serif;
 }
 .education .jumbotron {
   filter: drop-shadow(10px 10px #c0d5ff);
