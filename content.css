@@ -30,6 +30,10 @@ h2 {
   color: #ffa500;
 }
 
+a:hover {
+  color: #fc3e5b;
+}
+
 .row {
   display: flex;
   align-items: center;
@@ -138,6 +142,37 @@ bottom: 0;
   font-size: 80px;
 }
 
+/* PROJECTS */
+.projects {
+  height: 85vh;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.projects .jumbotron {
+  background-color: transparent;
+  color: white;
+  height: 650px;
+}
+.projects h3 {
+  background-color: white;
+  width: 100%;
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+.projects p {
+  font-family: 'PT Sans', sans-serif;
+}
+.note {
+  width: 100%;
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.note a:hover {
+  color: #0018be;
+}
+
 /* EDUCATION */
 .education {
   font-family: 'Do Hyeon', sans-serif;
@@ -145,6 +180,11 @@ bottom: 0;
 }
 .education i {
   font-size: 80px;
+}
+
+/* NOW */
+.now {
+  height: 50vh;
 }
 
 /* CONTACT */
