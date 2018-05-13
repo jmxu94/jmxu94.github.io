@@ -198,7 +198,26 @@ bottom: 0;
 
 /* NOW */
 .now {
-  height: 50vh;
+  height: 120vh;
+}
+.now h4 {
+  margin: 30px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.now p {
+  font-family: 'PT Sans', sans-serif;
+}
+.now .card {
+  font-family: 'Open Sans', sans-serif;
+  width: 18rem;
+  height: 22rem;
+  background-color: transparent;
+  border: none;
+}
+.now .card i {
+  font-size: 5em;
+  color: #fc3e5b;
+  filter: drop-shadow(5px 5px #c0d5ff);
 }
 
 /* CONTACT */
