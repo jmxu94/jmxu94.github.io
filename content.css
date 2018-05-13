@@ -14,9 +14,13 @@ h1 {
 
 h2 {
   font-size: 50px;
-  filter: drop-shadow(3px 3px #c0d5ff);
+  filter: drop-shadow(10px 10px #c0d5ff);
   background-color: white;
   padding: 15px;
+}
+
+.container-fluid {
+  padding-top: 5vh;
 }
 
 /* COLORS */
@@ -99,7 +103,7 @@ bottom: 0;
 
 /* SKILLS */
 .skills {
-  height: 80vh;
+  height: 65vh;
   font-family: 'PT Sans', sans-serif;
 }
 .skills h3 {
@@ -108,6 +112,7 @@ bottom: 0;
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: white;
+  filter: drop-shadow(5px 5px #ffa500);
 }
 .skills .jumbotron {
   background-color: transparent;
@@ -128,11 +133,12 @@ bottom: 0;
 /* EXPERIENCE */
 .experience {
   font-family: 'Do Hyeon', sans-serif;
-  height: 80vh;
+  height: 75vh;
 }
 .experience .jumbotron {
   height: 320px;
   padding-top: 30px;
+  filter: drop-shadow(10px 10px #fc3e5b);
 }
 .experience p {
   text-align: left;
@@ -144,19 +150,18 @@ bottom: 0;
 
 /* PROJECTS */
 .projects {
-  height: 85vh;
+  height: 90vh;
   font-family: 'Do Hyeon', sans-serif;
 }
 .projects .jumbotron {
   background-color: transparent;
   color: white;
-  height: 650px;
+  height: 520px;
 }
 .projects h3 {
   background-color: white;
   width: 100%;
   padding: 15px;
-  margin-top: 30px;
   margin-bottom: 30px;
   background-color: white;
 }
@@ -164,10 +169,12 @@ bottom: 0;
   font-family: 'PT Sans', sans-serif;
 }
 .note {
-  width: 100%;
   font-family: 'PT Sans', sans-serif;
   color: white;
   background-color: rgba(255, 255, 255, 0.3);
+  margin-bottom: 20vh;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .note a:hover {
   color: #0018be;
@@ -181,6 +188,9 @@ bottom: 0;
 .education i {
   font-size: 80px;
 }
+.education .jumbotron {
+  filter: drop-shadow(10px 10px #c0d5ff);
+}
 
 /* NOW */
 .now {
@@ -189,7 +199,7 @@ bottom: 0;
 
 /* CONTACT */
 .contact {
-  height: 140vh;
+  height: 110vh;
 }
 .contact p {
   font-family: 'PT Sans', sans-serif;
@@ -211,10 +221,13 @@ bottom: 0;
 .contact i:hover {
   color: #fc3e5b;
 }
+.contact .jumbotron {
+  filter: drop-shadow(10px 10px #fc3e5b);
+}
 
 /* REFERENCES */
 .references {
-  height: 70vh;
+  height: 60vh;
 }
 .references .card {
   width: 18rem;
@@ -228,7 +241,6 @@ bottom: 0;
   position: absolute;
   right: 30px;
   bottom: 15px;
-
   font-family: 'PT Sans', sans-serif;
   font-size: 0.8em;
   text-align: right;
